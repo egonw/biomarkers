@@ -23,6 +23,7 @@
 umls:C0268467 rdfs:label "GTP cyclohydrolase deficiency" .
 umls:C0751434 rdfs:label "phenylalanine hydroxylase deficiency" .
 umls:C0878676 rdfs:label "6-pyruvoyl-tetrahydropterin synthase deficiency" .
+umls:C0268465 rdfs:label "dihydropteridine reductase deficiency" .
 
 # change labels (↑ ↓)
 :possiblyLessObservedIn rdfs:label "↓?" .
@@ -48,6 +49,13 @@ wd:Q408256 rdfs:label "biopterin"
     ; :muchLessObservedIn :Adolescence
     ; :muchLessObservedIn :Adulthood
   ]
+  ; :bioMarker [ :for umls:C0268465
+    ; :possiblyMoreObservedIn :Neonatal
+    ; :possiblyMoreObservedIn :Infancy
+    ; :possiblyMoreObservedIn :Childhood
+    ; :moreObservedIn :Adolescence
+    ; :moreObservedIn :Adulthood
+  ]
   ; :observed [ :in :U ]
   ; :observed [ :in :CSF ]
   ; :observed [ :in :DBS ]
@@ -67,6 +75,13 @@ wd:Q170545 rdfs:label "phenylalanine"
     ; :veryMuchMoreObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0878676
+    ; :moreObservedIn :Neonatal
+    ; :moreObservedIn :Infancy
+    ; :moreObservedIn :Childhood
+    ; :moreObservedIn :Adolescence
+    ; :moreObservedIn :Adulthood
+  ]
+  ; :bioMarker [ :for umls:C0268465
     ; :moreObservedIn :Neonatal
     ; :moreObservedIn :Infancy
     ; :moreObservedIn :Childhood
@@ -117,6 +132,13 @@ wd:Q238532 rdfs:label "5-hydroxyindole acetic acid"
     ; :lessObservedIn :Adolescence
     ; :lessObservedIn :Adulthood
   ]
+  ; :bioMarker [ :for umls:C0268465
+    ; :muchLessObservedIn :Neonatal
+    ; :muchLessObservedIn :Infancy
+    ; :muchLessObservedIn :Childhood
+    ; :lessObservedIn :Adolescence
+    ; :lessObservedIn :Adulthood
+  ]
   ; :observed [ :in :CSF ]
 .
 
@@ -132,6 +154,13 @@ wd:Q903566 rdfs:label "homovanillic acid"
     ; :possiblyLessObservedIn :Childhood
     ; :lessObservedIn :Adolescence
     ; :lessObservedIn :Adulthood
+  ]
+  ; :bioMarker [ :for umls:C0268465
+    ; :muchLessObservedIn :Neonatal
+    ; :muchLessObservedIn :Infancy
+    ; :muchLessObservedIn :Childhood
+    ; :muchLessObservedIn :Adolescence
+    ; :muchLessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0878676
     ; :muchLessObservedIn :Neonatal
@@ -161,5 +190,23 @@ wd:Q192191 rdfs:label "prolactin"
     ; :moreObservedIn :Adolescence
     ; :moreObservedIn :Adulthood
   ]
+  ; :bioMarker [ :for umls:C0268465
+    ; :moreObservedIn :Neonatal
+    ; :moreObservedIn :Infancy
+    ; :moreObservedIn :Childhood
+    ; :moreObservedIn :Adolescence
+    ; :moreObservedIn :Adulthood
+  ]
   ; :observed [ :in :P ]
+.
+
+wd:Q5276421 rdfs:label "7,8-dihydrobiopterin"
+  ; :bioMarker [ :for umls:C0268465
+    ; :muchMoreObservedIn :Neonatal
+    ; :muchMoreObservedIn :Infancy
+    ; :muchMoreObservedIn :Childhood
+    ; :muchMoreObservedIn :Adolescence
+    ; :muchMoreObservedIn :Adulthood
+  ]
+  ; :observed [ :in :CSF ]
 .
