@@ -26,6 +26,14 @@ The data model itself is very much in flux and should be considered alpha. Addit
 are most welcome, though metabolite information is supposed to be stored in Wikidata and not
 reproduced here. Federated queries will allow linking things together.
 
+### namespaces
+
+    @prefix : <http://egonw.github.com/biomarkers/> .
+    @prefix wd: <http://www.wikidata.org/entity/> .
+    @prefix umls: <http://bioportal.bioontology.org/ontologies/umls/> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix omim: <http://bio2rdf.org/omim:> .
+
 ### metabolites
 
 Metabolites are identified by their Wikidata IRI and most come with a rdfs:label. For example:
@@ -37,6 +45,10 @@ Metabolites are identified by their Wikidata IRI and most come with a rdfs:label
 Diseases are identified by their UMLS IRI and most come with a rdfs:label. For example:
 
     umls:C0268467 rdfs:label "GTP cyclohydrolase deficiency" .
+
+If no UMLS IRI is available, then OMIM can be used:
+
+    omim:264070 rdfs:label "pterin-4a-carbinoamine dehydratase deficiency" .
 
 ### biomarkers
 
