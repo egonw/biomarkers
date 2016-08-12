@@ -5,6 +5,17 @@ in this repository is available as CCZero. If you like to contribute, please mak
 changes, and send me a pull request. By making a pull request, you make all content in the pull
 request avaiable as CCZero too.
 
+Attribution to this data collection can, at this momoment, be made to this GitHub repository:
+
+    Willighagen, E.L., 2016, Biomarkers, GitHub, Available from https://github.com/egonw/biomarkers/
+
+Additionally, a (future) data deposition can be cited.
+
+## data depositions
+
+For every 100 biomarker-disease relationships a data deposition will be created, probably at
+Figshare.
+
 ## data model
 
 Data from every separate data source is placed in a separate data file (in the Turtle format).
