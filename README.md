@@ -33,6 +33,18 @@ reproduced here. Federated queries will allow linking things together.
     @prefix umls: <http://bioportal.bioontology.org/ontologies/umls/> .
     @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
     @prefix omim: <http://bio2rdf.org/omim:> .
+    @prefix doi: <http://dx.doi.org/> .
+    @prefix cito: <http://purl.org/spar/cito/> .
+    @prefix void: <http://rdfs.org/ns/void#> .
+    @prefix dcterms: <http://purl.org/dc/terms/> .
+
+### the data set
+
+The data set is described with a minimal bit of VoID content, linking the data set to the source
+of the information, using a DOI IRI:
+
+    :Blau a void:Dataset ;
+      cito:citesAsDataSource <http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
 
 ### metabolites
 
