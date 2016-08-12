@@ -168,7 +168,8 @@ wd:Q903566 rdfs:label "homovanillic acid"
     ; :muchLessObservedIn :Childhood
     ; :muchLessObservedIn :Adolescence
     ; :lessObservedIn :Adulthood
-  ]; :observed [ :in :CSF ]
+  ]
+  ; :observed [ :in :CSF ]
 .
 
 wd:Q425030 rdfs:label "phenylpyruvic acid"
