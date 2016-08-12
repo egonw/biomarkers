@@ -3,8 +3,18 @@
 @prefix umls: <http://bioportal.bioontology.org/ontologies/umls/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix omim: <http://bio2rdf.org/omim:> .
+@prefix doi: <http://dx.doi.org/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 
 # source: Blau, Duran, et al.
+
+:Blau a void:Dataset ;
+  cito:citesAsDataSource <http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
+
+<http://dx.doi.org/10.1007/978-3-642-40337-8_1>
+  dcterms:isPartOf <http://dx.doi.org/10.1007/978-3-642-40337-8> .
 
 # source labels
 
