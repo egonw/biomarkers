@@ -2,6 +2,7 @@
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix umls: <http://bioportal.bioontology.org/ontologies/umls/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix omim: <http://bio2rdf.org/omim:> .
 
 # source: Blau, Duran, et al.
 
@@ -24,6 +25,7 @@ umls:C0268467 rdfs:label "GTP cyclohydrolase deficiency" .
 umls:C0751434 rdfs:label "phenylalanine hydroxylase deficiency" .
 umls:C0878676 rdfs:label "6-pyruvoyl-tetrahydropterin synthase deficiency" .
 umls:C0268465 rdfs:label "dihydropteridine reductase deficiency" .
+omim:264070 rdfs:label "pterin-4a-carbinoamine dehydratase deficiency" .
 
 # change labels (↑ ↓)
 :possiblyLessObservedIn rdfs:label "↓?" .
@@ -88,6 +90,9 @@ wd:Q170545 rdfs:label "phenylalanine"
     ; :moreObservedIn :Adolescence
     ; :moreObservedIn :Adulthood
   ]
+  ; :bioMarker [ :for omim:264070
+    ; :moreObservedIn :Neonatal
+  ]
   ; :observed [ :in :P ]
   ; :observed [ :in :U ]
   ; :observed [ :in :CSF ]
@@ -106,6 +111,10 @@ wd:Q908292 rdfs:label "neopterin"
     ; :veryMuchMoreObservedIn :Childhood
     ; :muchMoreObservedIn :Adolescence
     ; :muchMoreObservedIn :Adulthood
+  ]
+  ; :bioMarker [ :for omim:264070
+    ; :muchMoreObservedIn :Neonatal
+    ; :moreObservedIn :Infancy
   ]
   ; :observed [ :in :U ]
   ; :observed [ :in :CSF ]
@@ -203,6 +212,17 @@ wd:Q192191 rdfs:label "prolactin"
 
 wd:Q5276421 rdfs:label "7,8-dihydrobiopterin"
   ; :bioMarker [ :for umls:C0268465
+    ; :muchMoreObservedIn :Neonatal
+    ; :muchMoreObservedIn :Infancy
+    ; :muchMoreObservedIn :Childhood
+    ; :muchMoreObservedIn :Adolescence
+    ; :muchMoreObservedIn :Adulthood
+  ]
+  ; :observed [ :in :CSF ]
+.
+
+wd:Q26261687 rdfs:label "primapterin"
+  ; :bioMarker [ :for omim:264070
     ; :muchMoreObservedIn :Neonatal
     ; :muchMoreObservedIn :Infancy
     ; :muchMoreObservedIn :Childhood
