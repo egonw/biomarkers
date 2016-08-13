@@ -7,6 +7,7 @@
 @prefix cito: <http://purl.org/spar/cito/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> .
 
 # source: Blau, Duran, et al.
 
@@ -50,6 +51,7 @@ umls:C0268468 rdfs:label "sepiapterin reductase deficiency" .
 :veryMuchMoreObservedIn rdfs:label "↑↑↑" .
 
 wd:Q408256 rdfs:label "biopterin"
+  ; a chebi:25367
   ; :bioMarker [ :for umls:C0268467
     ; :observedIn :U, :CSF, :DBS
     ; :muchLessObservedIn :Neonatal
@@ -92,6 +94,7 @@ wd:Q408256 rdfs:label "biopterin"
 .
 
 wd:Q170545 rdfs:label "phenylalanine"
+  ; a chebi:25367
   ; :bioMarker [ :for umls:C0268467
     ; :observedIn :P, :U, :CSF
     ; :moreObservedIn :Infancy
@@ -129,6 +132,7 @@ wd:Q170545 rdfs:label "phenylalanine"
 .
 
 wd:Q908292 rdfs:label "neopterin"
+  ; a chebi:25367
   ; :bioMarker [ :for umls:C0268467
     ; :observedIn :U, :CSF, :DBS
     ; :muchLessObservedIn :Neonatal
@@ -160,6 +164,7 @@ wd:Q908292 rdfs:label "neopterin"
 .
 
 wd:Q238532 rdfs:label "5-hydroxyindole acetic acid"
+  ; a chebi:25367
   ; :bioMarker [ :for umls:C0268467
     ; :observedIn :CSF
     ; :muchLessObservedIn :Neonatal
@@ -209,6 +214,7 @@ wd:Q238532 rdfs:label "5-hydroxyindole acetic acid"
 .
 
 wd:Q903566 rdfs:label "homovanillic acid"
+  ; a chebi:25367
   ; :bioMarker [ :for umls:C0268467
     ; :observedIn :CSF
     ; :lessObservedIn :Neonatal
@@ -258,6 +264,7 @@ wd:Q903566 rdfs:label "homovanillic acid"
 .
 
 wd:Q425030 rdfs:label "phenylpyruvic acid"
+  ; a chebi:25367
   ; :bioMarker [ :for umls:C0751434
     ; :observedIn :U
     ; :possiblyMoreObservedIn :Neonatal
@@ -296,6 +303,7 @@ wd:Q192191 rdfs:label "prolactin"
 .
 
 wd:Q5276421 rdfs:label "7,8-dihydrobiopterin"
+  ; a chebi:25367
   ; :bioMarker [ :for umls:C0268465
     ; :observedIn :CSF
     ; :muchMoreObservedIn :Neonatal
@@ -315,6 +323,7 @@ wd:Q5276421 rdfs:label "7,8-dihydrobiopterin"
 .
 
 wd:Q26261687 rdfs:label "primapterin"
+  ; a chebi:25367
   ; :bioMarker [ :for omim:264070
     ; :observedIn :U
     ; :muchMoreObservedIn :Neonatal
@@ -326,6 +335,7 @@ wd:Q26261687 rdfs:label "primapterin"
 .
 
 wd:Q2271580 rdfs:label "sepiapterin"
+  ; a chebi:25367
   ; :bioMarker [ :for umls:C0268468
     ; :observedIn :CSF
     ; :muchMoreObservedIn :Neonatal
