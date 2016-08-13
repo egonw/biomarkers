@@ -36,6 +36,7 @@ umls:C0751434 rdfs:label "phenylalanine hydroxylase deficiency" .
 umls:C0878676 rdfs:label "6-pyruvoyl-tetrahydropterin synthase deficiency" .
 umls:C0268465 rdfs:label "dihydropteridine reductase deficiency" .
 omim:264070 rdfs:label "pterin-4a-carbinoamine dehydratase deficiency" .
+umls:C1851920 rdfs:label "dopa-responsive dystonia" .
 
 # change labels (↑ ↓)
 :possiblyLessObservedIn rdfs:label "↓?" .
@@ -67,6 +68,13 @@ wd:Q408256 rdfs:label "biopterin"
     ; :possiblyMoreObservedIn :Childhood
     ; :moreObservedIn :Adolescence
     ; :moreObservedIn :Adulthood
+  ]
+  ; :bioMarker [ :for umls:C1851920
+    ; :lessObservedIn :Neonatal
+    ; :lessObservedIn :Infancy
+    ; :lessObservedIn :Childhood
+    ; :lessObservedIn :Adolescence
+    ; :lessObservedIn :Adulthood
   ]
   ; :observed [ :in :U ]
   ; :observed [ :in :CSF ]
@@ -126,6 +134,13 @@ wd:Q908292 rdfs:label "neopterin"
     ; :muchMoreObservedIn :Neonatal
     ; :moreObservedIn :Infancy
   ]
+  ; :bioMarker [ :for umls:C1851920
+    ; :lessObservedIn :Neonatal
+    ; :lessObservedIn :Infancy
+    ; :lessObservedIn :Childhood
+    ; :lessObservedIn :Adolescence
+    ; :lessObservedIn :Adulthood
+  ]
   ; :observed [ :in :U ]
   ; :observed [ :in :CSF ]
   ; :observed [ :in :DBS ]
@@ -158,6 +173,13 @@ wd:Q238532 rdfs:label "5-hydroxyindole acetic acid"
     ; :lessObservedIn :Adolescence
     ; :lessObservedIn :Adulthood
   ]
+  ; :bioMarker [ :for umls:C1851920
+    ; :possiblyLessObservedIn :Neonatal
+    ; :possiblyLessObservedIn :Infancy
+    ; :possiblyLessObservedIn :Childhood
+    ; :possiblyLessObservedIn :Adolescence
+    ; :possiblyLessObservedIn :Adulthood
+  ]
   ; :observed [ :in :CSF ]
 .
 
@@ -186,6 +208,13 @@ wd:Q903566 rdfs:label "homovanillic acid"
     ; :muchLessObservedIn :Infancy
     ; :muchLessObservedIn :Childhood
     ; :muchLessObservedIn :Adolescence
+    ; :lessObservedIn :Adulthood
+  ]
+  ; :bioMarker [ :for umls:C1851920
+    ; :lessObservedIn :Neonatal
+    ; :lessObservedIn :Infancy
+    ; :lessObservedIn :Childhood
+    ; :lessObservedIn :Adolescence
     ; :lessObservedIn :Adulthood
   ]
   ; :observed [ :in :CSF ]
