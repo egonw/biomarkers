@@ -37,6 +37,8 @@ reproduced here. Federated queries will allow linking things together.
     @prefix cito: <http://purl.org/spar/cito/> .
     @prefix void: <http://rdfs.org/ns/void#> .
     @prefix dcterms: <http://purl.org/dc/terms/> .
+    @prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> .
+    @prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
 
 ### the data set
 
@@ -46,21 +48,26 @@ of the information, using a DOI IRI:
     :Blau a void:Dataset ;
       cito:citesAsDataSource <http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
 
+Metabolites and diseases are typed using a ChEBI and NCIT class.
+
 ### metabolites
 
 Metabolites are identified by their Wikidata IRI and most come with a rdfs:label. For example:
 
-    wd:Q408256 rdfs:label "biopterin" .
+    wd:Q408256 rdfs:label "biopterin" ;
+      a chebi:25367 .
 
 ### diseases
 
 Diseases are identified by their UMLS IRI and most come with a rdfs:label. For example:
 
-    umls:C0268467 rdfs:label "GTP cyclohydrolase deficiency" .
+    umls:C0268467 a ncit:C7057 ; 
+      rdfs:label "GTP cyclohydrolase deficiency" .
 
 If no UMLS IRI is available, then OMIM can be used:
 
-    omim:264070 rdfs:label "pterin-4a-carbinoamine dehydratase deficiency" .
+    omim:264070 a ncit:C7057 ; 
+      rdfs:label "pterin-4a-carbinoamine dehydratase deficiency" .
 
 ### biomarkers
 
