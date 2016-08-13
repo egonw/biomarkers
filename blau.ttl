@@ -8,6 +8,7 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> .
+@prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
 
 # source: Blau, Duran, et al.
 
@@ -32,13 +33,13 @@
 
 # disease labels
 
-umls:C0268467 rdfs:label "GTP cyclohydrolase deficiency" .
-umls:C0751434 rdfs:label "phenylalanine hydroxylase deficiency" .
-umls:C0878676 rdfs:label "6-pyruvoyl-tetrahydropterin synthase deficiency" .
-umls:C0268465 rdfs:label "dihydropteridine reductase deficiency" .
-omim:264070 rdfs:label "pterin-4a-carbinoamine dehydratase deficiency" .
-umls:C1851920 rdfs:label "dopa-responsive dystonia" .
-umls:C0268468 rdfs:label "sepiapterin reductase deficiency" .
+umls:C0268467 a ncit:C7057 ; rdfs:label "GTP cyclohydrolase deficiency" .
+umls:C0751434 a ncit:C7057 ; rdfs:label "phenylalanine hydroxylase deficiency" .
+umls:C0878676 a ncit:C7057 ; rdfs:label "6-pyruvoyl-tetrahydropterin synthase deficiency" .
+umls:C0268465 a ncit:C7057 ; rdfs:label "dihydropteridine reductase deficiency" .
+omim:264070   a ncit:C7057 ; rdfs:label "pterin-4a-carbinoamine dehydratase deficiency" .
+umls:C1851920 a ncit:C7057 ; rdfs:label "dopa-responsive dystonia" .
+umls:C0268468 a ncit:C7057 ; rdfs:label "sepiapterin reductase deficiency" .
 
 # change labels (↑ ↓)
 :possiblyLessObservedIn rdfs:label "↓?" .
