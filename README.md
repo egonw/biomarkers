@@ -1,5 +1,7 @@
 # biomarkers
 
+> *a journey of a thousand miles begins with a single step* -- Laozi
+
 This repository exists to collect information about (initially) metabolite biomarkers. All content
 in this repository is available as CCZero. If you like to contribute, please make a fork, make
 changes, and send me a pull request. By making a pull request, you make all content in the pull
