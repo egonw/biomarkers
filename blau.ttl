@@ -40,6 +40,7 @@ umls:C0268465 a ncit:C7057 ; rdfs:label "dihydropteridine reductase deficiency" 
 omim:264070   a ncit:C7057 ; rdfs:label "pterin-4a-carbinoamine dehydratase deficiency" .
 umls:C1851920 a ncit:C7057 ; rdfs:label "dopa-responsive dystonia" .
 umls:C0268468 a ncit:C7057 ; rdfs:label "sepiapterin reductase deficiency" .
+umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 
 # change labels (↑ ↓)
 :possiblyLessObservedIn rdfs:label "↓?" .
@@ -346,3 +347,17 @@ wd:Q2271580 rdfs:label "sepiapterin"
     ; :muchMoreObservedIn :Adulthood
   ]
 .
+
+wd:Q4637160 rdfs:label "4-hydroxyphenyl acetate"
+  ; a chebi:25367
+  ; :bioMarker [ :for umls:C0268490
+    ; :observedIn :U
+    ; :moreObservedIn :Neonatal
+    ; :moreObservedIn :Infancy
+    ; :moreObservedIn :Childhood
+    ; :moreObservedIn :Adolescence
+    ; :moreObservedIn :Adulthood
+  ]
+.
+
+
