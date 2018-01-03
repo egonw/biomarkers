@@ -64,8 +64,8 @@ with a class from the NCIT ontology.
 
 Metabolites are identified by their Wikidata IRI and most come with a rdfs:label. For example:
 
-    wd:Q408256 rdfs:label "biopterin" ;
-      a chebi:25367 .
+    wd:Q408256 a chebi:25367 ;
+      rdfs:label "biopterin" .
 
 ### causes
 
@@ -83,22 +83,17 @@ If no UMLS IRI is available, then OMIM can be used:
     omim:264070 a ncit:C7057 ; 
       rdfs:label "pterin-4a-carbinoamine dehydratase deficiency" .
 
-### biomarkers
+### biomarker associations
 
-Biomarker information is linked to a metabolite via the http://egonw.github.com/biomarkers/bioMarker
-predicate. BioMarkers are so far anynomous and untyped classes. Each biomaker is further linked
-to a disease. Annotation with up or downregulatation is strongly encouraged, but currently not
-worked out in schema form yet.
+Biomarker information is linked to a metabolite via associations, modelled after DiSGeNET
+and thus reusing the SIO.
 
 An example:
 
-    wd:Q408256 rdfs:label "biopterin"
-      ; :bioMarker [ :for umls:C0268467
-        ; :observedIn :U, :CSF, :DBS
-      ]
-
-The annotation where the biomarker is observed is not strictly required, but experimentally
-important. Sometimes changes only happen in one fluid.
+    :assoc11 a association: ;
+      refersTo: chapter1:,
+                wd:Q908292, 
+                umls:C0268467 .
 
 #### biomarker concentration change
 
