@@ -1,4 +1,4 @@
-@prefix : <http://egonw.github.com/biomarkers/> .
+@prefix : <http://egonw.github.com/biomarkers/blau/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix umls: <http://bioportal.bioontology.org/ontologies/umls/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -10,13 +10,16 @@
 @prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> .
 @prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
 
+@prefix association: <http://egonw.github.com/biomarkers/Association> .
+@prefix refersTo: <http://semanticscience.or/resource/SIO_000628> .
+
 # source: Blau, Duran, et al.
 
-:Blau a void:Dataset ;
-  cito:citesAsDataSource <http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
+@prefix book: <http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
+@prefix chapter1: <<http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
 
-<http://dx.doi.org/10.1007/978-3-642-40337-8_1>
-  dcterms:isPartOf <http://dx.doi.org/10.1007/978-3-642-40337-8> .
+:Blau a void:Dataset ; cito:citesAsDataSource book: .
+chapter1: dcterms:isPartOf book: .
 
 # disease labels
 
@@ -29,123 +32,66 @@ umls:C1851920 a ncit:C7057 ; rdfs:label "dopa-responsive dystonia" .
 umls:C0268468 a ncit:C7057 ; rdfs:label "sepiapterin reductase deficiency" .
 umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 
-wd:Q408256 rdfs:label "biopterin"
-  ; a chebi:25367
-  ; :bioMarker [ :for umls:C0268467
-  ]
-  ; :bioMarker [ :for umls:C0878676
-  ]
-  ; :bioMarker [ :for umls:C0268465
-  ]
-  ; :bioMarker [ :for umls:C1851920
-  ]
-  ; :bioMarker [ :for umls:C0268468
-  ]
-.
+# molecule-disease associations
 
-wd:Q170545 rdfs:label "phenylalanine"
-  ; a chebi:25367
-  ; :bioMarker [ :for umls:C0268467
-  ]
-  ; :bioMarker [ :for umls:C0751434
-  ]
-  ; :bioMarker [ :for umls:C0878676
-  ]
-  ; :bioMarker [ :for umls:C0268465
-  ]
-  ; :bioMarker [ :for omim:264070
-  ]
-.
+wd:Q408256 a chebi:25367 ; rdfs:label "biopterin" .
+:assoc1 a association: ; refersTo: chapter1:, wd:Q408256, umls:C0268467 .
+:assoc2 a association: ; refersTo: chapter1:, wd:Q408256, umls:C0268465 .
+:assoc3 a association: ; refersTo: chapter1:, wd:Q408256, umls:C0878676 .
+:assoc4 a association: ; refersTo: chapter1:, wd:Q408256, umls:C1851920 .
+:assoc5 a association: ; refersTo: chapter1:, wd:Q408256, umls:C0268468 .
 
-wd:Q908292 rdfs:label "neopterin"
-  ; a chebi:25367
-  ; :bioMarker [ :for umls:C0268467
-  ]
-  ; :bioMarker [ :for umls:C0878676
-  ]
-  ; :bioMarker [ :for omim:264070
-  ]
-  ; :bioMarker [ :for umls:C1851920
-  ]
-.
+wd:Q170545 a chebi:25367 ; rdfs:label "phenylalanine" .
+:assoc6  a association: ; refersTo: chapter1:, wd:Q170545, umls:C0268467 .
+:assoc7  a association: ; refersTo: chapter1:, wd:Q170545, umls:C0751434 .
+:assoc8  a association: ; refersTo: chapter1:, wd:Q170545, umls:C0878676 .
+:assoc9  a association: ; refersTo: chapter1:, wd:Q170545, umls:C0268465 .
+:assoc10 a association: ; refersTo: chapter1:, wd:Q170545, omim:264070 .
 
-wd:Q238532 rdfs:label "5-hydroxyindole acetic acid"
-  ; a chebi:25367
-  ; :bioMarker [ :for umls:C0268467
-  ]
-  ; :bioMarker [ :for umls:C0751434
-  ]
-  ; :bioMarker [ :for umls:C0878676
-  ]
-  ; :bioMarker [ :for umls:C0268465
-  ]
-  ; :bioMarker [ :for umls:C1851920
-  ]
-  ; :bioMarker [ :for umls:C0268468
-  ]
-.
+wd:Q908292 a chebi:25367 ; rdfs:label "neopterin" .
+:assoc11 a association: ; refersTo: chapter1:, wd:Q908292, umls:C0268467 .
+:assoc12 a association: ; refersTo: chapter1:, wd:Q908292, umls:C0878676 .
+:assoc13 a association: ; refersTo: chapter1:, wd:Q908292, omim:264070 .
+:assoc14 a association: ; refersTo: chapter1:, wd:Q908292, umls:C1851920 .
 
-wd:Q903566 rdfs:label "homovanillic acid"
-  ; a chebi:25367
-  ; :bioMarker [ :for umls:C0268467
-  ]
-  ; :bioMarker [ :for umls:C0751434
-  ]
-  ; :bioMarker [ :for umls:C0268465
-  ]
-  ; :bioMarker [ :for umls:C0878676
-  ]
-  ; :bioMarker [ :for umls:C1851920
-  ]
-  ; :bioMarker [ :for umls:C0268468
-  ]
-.
+wd:Q238532 a chebi:25367 ; rdfs:label "5-hydroxyindole acetic acid" .
+:assoc15 a association: ; refersTo: chapter1:, wd:Q238532, umls:C0268467 .
+:assoc16 a association: ; refersTo: chapter1:, wd:Q238532, umls:C0751434 .
+:assoc17 a association: ; refersTo: chapter1:, wd:Q238532, umls:C0878676 .
+:assoc18 a association: ; refersTo: chapter1:, wd:Q238532, umls:C0268465 .
+:assoc19 a association: ; refersTo: chapter1:, wd:Q238532, umls:C1851920 .
+:assoc20 a association: ; refersTo: chapter1:, wd:Q238532, umls:C0268468 .
 
-wd:Q425030 rdfs:label "phenylpyruvic acid"
-  ; a chebi:25367
-  ; :bioMarker [ :for umls:C0751434
-  ]
-.
+wd:Q903566 a chebi:25367 ; rdfs:label "homovanillic acid" .
+:assoc21 a association: ; refersTo: chapter1:, wd:Q903566, umls:C0268467 .
+:assoc22 a association: ; refersTo: chapter1:, wd:Q903566, umls:C0751434 .
+:assoc23 a association: ; refersTo: chapter1:, wd:Q903566, umls:C0268465 .
+:assoc24 a association: ; refersTo: chapter1:, wd:Q903566, umls:C0878676 .
+:assoc25 a association: ; refersTo: chapter1:, wd:Q903566, umls:C1851920 .
+:assoc26 a association: ; refersTo: chapter1:, wd:Q903566, umls:C0268468 .
 
-wd:Q192191 rdfs:label "prolactin"
-  ; :bioMarker [ :for umls:C0878676
-  ]
-  ; :bioMarker [ :for umls:C0268465
-  ]
-  ; :bioMarker [ :for umls:C0268468
-  ]
-.
+wd:Q425030 a chebi:25367 ; rdfs:label "phenylpyruvic acid" .
+:assoc27 a association: ; refersTo: chapter1:, wd:Q425030, umls:C0751434 .
 
-wd:Q5276421 rdfs:label "7,8-dihydrobiopterin"
-  ; a chebi:25367
-  ; :bioMarker [ :for umls:C0268465
-  ]
-  ; :bioMarker [ :for umls:C0268468
-  ]
-.
+wd:Q192191 a chebi:25367 ; rdfs:label "prolactin" .
+:assoc28 a association: ; refersTo: chapter1:, wd:Q192191, umls:C0878676 .
+:assoc29 a association: ; refersTo: chapter1:, wd:Q192191, umls:C0268465 .
+:assoc30 a association: ; refersTo: chapter1:, wd:Q192191, umls:C0268468 .
 
-wd:Q26261687 rdfs:label "primapterin"
-  ; a chebi:25367
-  ; :bioMarker [ :for omim:264070
-  ]
-.
+wd:Q5276421 a chebi:25367 ; rdfs:label "7,8-dihydrobiopterin" .
+:assoc31 a association: ; refersTo: chapter1:, wd:Q5276421, umls:C0268465 .
+:assoc32 a association: ; refersTo: chapter1:, wd:Q5276421, umls:C0268468 .
 
-wd:Q2271580 rdfs:label "sepiapterin"
-  ; a chebi:25367
-  ; :bioMarker [ :for umls:C0268468
-  ]
-.
+wd:Q26261687 a chebi:25367 ; rdfs:label "primapterin" .
+:assoc33 a association: ; refersTo: chapter1:, wd:Q26261687, omim:264070 .
 
-wd:Q4637160 rdfs:label "4-hydroxyphenyl acetate"
-  ; a chebi:25367
-  ; :bioMarker [ :for umls:C0268490
-  ]
-.
+wd:Q2271580 a chebi:25367 ; rdfs:label "sepiapterin" .
+:assoc34 a association: ; refersTo: chapter1:, wd:Q2271580, umls:C0268468 .
 
-wd:Q4637160 rdfs:label "4-hydroxyphenyl lactate"
-  ; a chebi:25367
-  ; :bioMarker [ :for umls:C0268490
-  ]
-.
+wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl acetate" .
+:assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
+
+wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl lactate" .
+:assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
 
 
