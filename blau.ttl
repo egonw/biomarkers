@@ -18,19 +18,6 @@
 <http://dx.doi.org/10.1007/978-3-642-40337-8_1>
   dcterms:isPartOf <http://dx.doi.org/10.1007/978-3-642-40337-8> .
 
-# source labels
-
-:P rdfs:label "plasma" .
-:S rdfs:label "serum" .
-:B rdfs:label "blood" .
-:U rdfs:label "urine" .
-:CSF rdfs:label "cerebrospinal fluid" .
-:RBC rdfs:label "red blood cells" .
-:LYM rdfs:label "lymphocytes" .
-:FB rdfs:label "fibroblasts" .
-:BM rdfs:label "bone marrow" .
-:DBS rdfs:label "dried blood spots" .
-
 # disease labels
 
 umls:C0268467 a ncit:C7057 ; rdfs:label "GTP cyclohydrolase deficiency" .
@@ -42,321 +29,122 @@ umls:C1851920 a ncit:C7057 ; rdfs:label "dopa-responsive dystonia" .
 umls:C0268468 a ncit:C7057 ; rdfs:label "sepiapterin reductase deficiency" .
 umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 
-# change labels (↑ ↓)
-:possiblyLessObservedIn rdfs:label "↓?" .
-:lessObservedIn rdfs:label "↓" .
-:muchLessObservedIn rdfs:label "↓↓" .
-:veryMuchLessObservedIn rdfs:label "↓↓↓" .
-:possiblyMoreObservedIn rdfs:label "↑?" .
-:MoreObservedIn rdfs:label "↑" .
-:muchMoreObservedIn rdfs:label "↑↑" .
-:veryMuchMoreObservedIn rdfs:label "↑↑↑" .
-
 wd:Q408256 rdfs:label "biopterin"
   ; a chebi:25367
   ; :bioMarker [ :for umls:C0268467
-    ; :observedIn :U, :CSF, :DBS
-    ; :muchLessObservedIn :Neonatal
-    ; :muchLessObservedIn :Infancy
-    ; :muchLessObservedIn :Childhood
-    ; :muchLessObservedIn :Adolescence
   ]
   ; :bioMarker [ :for umls:C0878676
-    ; :observedIn :U, :CSF, :DBS
-    ; :veryMuchLessObservedIn :Neonatal
-    ; :veryMuchLessObservedIn :Infancy
-    ; :muchLessObservedIn :Childhood
-    ; :muchLessObservedIn :Adolescence
-    ; :muchLessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0268465
-    ; :observedIn :U, :CSF, :DBS
-    ; :possiblyMoreObservedIn :Neonatal
-    ; :possiblyMoreObservedIn :Infancy
-    ; :possiblyMoreObservedIn :Childhood
-    ; :moreObservedIn :Adolescence
-    ; :moreObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C1851920
-    ; :observedIn :CSF
-    ; :lessObservedIn :Neonatal
-    ; :lessObservedIn :Infancy
-    ; :lessObservedIn :Childhood
-    ; :lessObservedIn :Adolescence
-    ; :lessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0268468
-    ; :observedIn :CSF
-    ; :moreObservedIn :Neonatal
-    ; :moreObservedIn :Infancy
-    ; :moreObservedIn :Childhood
-    ; :moreObservedIn :Adolescence
-    ; :moreObservedIn :Adulthood
   ]
 .
 
 wd:Q170545 rdfs:label "phenylalanine"
   ; a chebi:25367
   ; :bioMarker [ :for umls:C0268467
-    ; :observedIn :P, :U, :CSF
-    ; :moreObservedIn :Infancy
-    ; :moreObservedIn :Childhood
-    ; :moreObservedIn :Adolescence
   ]
   ; :bioMarker [ :for umls:C0751434
-    ; :observedIn :P, :U, :CSF
-    ; :veryMuchMoreObservedIn :Neonatal
-    ; :veryMuchMoreObservedIn :Infancy
-    ; :veryMuchMoreObservedIn :Childhood
-    ; :veryMuchMoreObservedIn :Adolescence
-    ; :veryMuchMoreObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0878676
-    ; :observedIn :P, :U, :CSF
-    ; :moreObservedIn :Neonatal
-    ; :moreObservedIn :Infancy
-    ; :moreObservedIn :Childhood
-    ; :moreObservedIn :Adolescence
-    ; :moreObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0268465
-    ; :observedIn :P, :U, :CSF
-    ; :moreObservedIn :Neonatal
-    ; :moreObservedIn :Infancy
-    ; :moreObservedIn :Childhood
-    ; :moreObservedIn :Adolescence
-    ; :moreObservedIn :Adulthood
   ]
   ; :bioMarker [ :for omim:264070
-    ; :observedIn :P
-    ; :moreObservedIn :Neonatal
   ]
 .
 
 wd:Q908292 rdfs:label "neopterin"
   ; a chebi:25367
   ; :bioMarker [ :for umls:C0268467
-    ; :observedIn :U, :CSF, :DBS
-    ; :muchLessObservedIn :Neonatal
-    ; :muchLessObservedIn :Infancy
-    ; :muchLessObservedIn :Childhood
-    ; :muchLessObservedIn :Adolescence
   ]
   ; :bioMarker [ :for umls:C0878676
-    ; :observedIn :U, :CSF, :DBS
-    ; :veryMuchMoreObservedIn :Neonatal
-    ; :veryMuchMoreObservedIn :Infancy
-    ; :veryMuchMoreObservedIn :Childhood
-    ; :muchMoreObservedIn :Adolescence
-    ; :muchMoreObservedIn :Adulthood
   ]
   ; :bioMarker [ :for omim:264070
-    ; :observedIn :U
-    ; :muchMoreObservedIn :Neonatal
-    ; :moreObservedIn :Infancy
   ]
   ; :bioMarker [ :for umls:C1851920
-    ; :observedIn :CSF
-    ; :lessObservedIn :Neonatal
-    ; :lessObservedIn :Infancy
-    ; :lessObservedIn :Childhood
-    ; :lessObservedIn :Adolescence
-    ; :lessObservedIn :Adulthood
   ]
 .
 
 wd:Q238532 rdfs:label "5-hydroxyindole acetic acid"
   ; a chebi:25367
   ; :bioMarker [ :for umls:C0268467
-    ; :observedIn :CSF
-    ; :muchLessObservedIn :Neonatal
-    ; :muchLessObservedIn :Infancy
-    ; :muchLessObservedIn :Childhood
-    ; :muchLessObservedIn :Adolescence
   ]
   ; :bioMarker [ :for umls:C0751434
-    ; :observedIn :CSF
-    ; :possiblyLessObservedIn :Infancy
-    ; :possiblyLessObservedIn :Childhood
-    ; :lessObservedIn :Adolescence
-    ; :lessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0878676
-    ; :observedIn :CSF
-    ; :muchLessObservedIn :Neonatal
-    ; :muchLessObservedIn :Infancy
-    ; :muchLessObservedIn :Childhood
-    ; :lessObservedIn :Adolescence
-    ; :lessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0268465
-    ; :observedIn :CSF
-    ; :muchLessObservedIn :Neonatal
-    ; :muchLessObservedIn :Infancy
-    ; :muchLessObservedIn :Childhood
-    ; :lessObservedIn :Adolescence
-    ; :lessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C1851920
-    ; :observedIn :CSF
-    ; :possiblyLessObservedIn :Neonatal
-    ; :possiblyLessObservedIn :Infancy
-    ; :possiblyLessObservedIn :Childhood
-    ; :possiblyLessObservedIn :Adolescence
-    ; :possiblyLessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0268468
-    ; :observedIn :CSF
-    ; :veryMuchLessObservedIn :Neonatal
-    ; :veryMuchLessObservedIn :Infancy
-    ; :veryMuchLessObservedIn :Childhood
-    ; :veryMuchLessObservedIn :Adolescence
-    ; :muchLessObservedIn :Adulthood
   ]
 .
 
 wd:Q903566 rdfs:label "homovanillic acid"
   ; a chebi:25367
   ; :bioMarker [ :for umls:C0268467
-    ; :observedIn :CSF
-    ; :lessObservedIn :Neonatal
-    ; :lessObservedIn :Infancy
-    ; :lessObservedIn :Childhood
-    ; :lessObservedIn :Adolescence
   ]
   ; :bioMarker [ :for umls:C0751434
-    ; :observedIn :CSF
-    ; :possiblyLessObservedIn :Infancy
-    ; :possiblyLessObservedIn :Childhood
-    ; :lessObservedIn :Adolescence
-    ; :lessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0268465
-    ; :observedIn :CSF
-    ; :muchLessObservedIn :Neonatal
-    ; :muchLessObservedIn :Infancy
-    ; :muchLessObservedIn :Childhood
-    ; :muchLessObservedIn :Adolescence
-    ; :muchLessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0878676
-    ; :observedIn :CSF
-    ; :muchLessObservedIn :Neonatal
-    ; :muchLessObservedIn :Infancy
-    ; :muchLessObservedIn :Childhood
-    ; :muchLessObservedIn :Adolescence
-    ; :lessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C1851920
-    ; :observedIn :CSF
-    ; :lessObservedIn :Neonatal
-    ; :lessObservedIn :Infancy
-    ; :lessObservedIn :Childhood
-    ; :lessObservedIn :Adolescence
-    ; :lessObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0268468
-    ; :observedIn :CSF
-    ; :veryMuchLessObservedIn :Neonatal
-    ; :veryMuchLessObservedIn :Infancy
-    ; :veryMuchLessObservedIn :Childhood
-    ; :veryMuchLessObservedIn :Adolescence
-    ; :veryMuchLessObservedIn :Adulthood
   ]
 .
 
 wd:Q425030 rdfs:label "phenylpyruvic acid"
   ; a chebi:25367
   ; :bioMarker [ :for umls:C0751434
-    ; :observedIn :U
-    ; :possiblyMoreObservedIn :Neonatal
-    ; :moreObservedIn :Infancy
-    ; :moreObservedIn :Childhood
-    ; :moreObservedIn :Adolescence
-    ; :moreObservedIn :Adulthood
   ]
 .
 
 wd:Q192191 rdfs:label "prolactin"
   ; :bioMarker [ :for umls:C0878676
-    ; :observedIn :P
-    ; :moreObservedIn :Neonatal
-    ; :moreObservedIn :Infancy
-    ; :moreObservedIn :Childhood
-    ; :moreObservedIn :Adolescence
-    ; :moreObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0268465
-    ; :observedIn :P
-    ; :moreObservedIn :Neonatal
-    ; :moreObservedIn :Infancy
-    ; :moreObservedIn :Childhood
-    ; :moreObservedIn :Adolescence
-    ; :moreObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0268468
-    ; :observedIn :P
-    ; :moreObservedIn :Neonatal
-    ; :moreObservedIn :Infancy
-    ; :moreObservedIn :Childhood
-    ; :moreObservedIn :Adolescence
-    ; :moreObservedIn :Adulthood
   ]
 .
 
 wd:Q5276421 rdfs:label "7,8-dihydrobiopterin"
   ; a chebi:25367
   ; :bioMarker [ :for umls:C0268465
-    ; :observedIn :CSF
-    ; :muchMoreObservedIn :Neonatal
-    ; :muchMoreObservedIn :Infancy
-    ; :muchMoreObservedIn :Childhood
-    ; :muchMoreObservedIn :Adolescence
-    ; :muchMoreObservedIn :Adulthood
   ]
   ; :bioMarker [ :for umls:C0268468
-    ; :observedIn :CSF
-    ; :muchMoreObservedIn :Neonatal
-    ; :muchMoreObservedIn :Infancy
-    ; :muchMoreObservedIn :Childhood
-    ; :muchMoreObservedIn :Adolescence
-    ; :muchMoreObservedIn :Adulthood
   ]
 .
 
 wd:Q26261687 rdfs:label "primapterin"
   ; a chebi:25367
   ; :bioMarker [ :for omim:264070
-    ; :observedIn :U
-    ; :muchMoreObservedIn :Neonatal
-    ; :muchMoreObservedIn :Infancy
-    ; :muchMoreObservedIn :Childhood
-    ; :muchMoreObservedIn :Adolescence
-    ; :muchMoreObservedIn :Adulthood
   ]
 .
 
 wd:Q2271580 rdfs:label "sepiapterin"
   ; a chebi:25367
   ; :bioMarker [ :for umls:C0268468
-    ; :observedIn :CSF
-    ; :muchMoreObservedIn :Neonatal
-    ; :muchMoreObservedIn :Infancy
-    ; :muchMoreObservedIn :Childhood
-    ; :muchMoreObservedIn :Adolescence
-    ; :muchMoreObservedIn :Adulthood
   ]
 .
 
 wd:Q4637160 rdfs:label "4-hydroxyphenyl acetate"
   ; a chebi:25367
   ; :bioMarker [ :for umls:C0268490
-    ; :observedIn :U
-    ; :moreObservedIn :Neonatal
-    ; :moreObservedIn :Infancy
-    ; :moreObservedIn :Childhood
-    ; :moreObservedIn :Adolescence
-    ; :moreObservedIn :Adulthood
+  ]
+.
+
+wd:Q4637160 rdfs:label "4-hydroxyphenyl lactate"
+  ; a chebi:25367
+  ; :bioMarker [ :for umls:C0268490
   ]
 .
 
