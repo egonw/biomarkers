@@ -10,7 +10,7 @@
 @prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> .
 @prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
 
-@prefix association: <http://egonw.github.com/biomarkers/Association> .
+@prefix association: <http://semanticscience.org/resource/SIO_000993> .
 @prefix refersTo: <http://semanticscience.or/resource/SIO_000628> .
 
 # source: Blau, Duran, et al.
