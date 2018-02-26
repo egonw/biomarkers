@@ -21,6 +21,9 @@
 :Blau a void:Dataset ; cito:citesAsDataSource book: .
 chapter1: dcterms:isPartOf book: .
 
+# article sources:
+@prefix article: <https://www.ncbi.nlm.nih.gov/pubmed/> .
+
 # disease labels
 
 umls:C0268467 a ncit:C7057 ; rdfs:label "GTP cyclohydrolase deficiency" .
