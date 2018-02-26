@@ -15,8 +15,8 @@
 
 # source: Blau, Duran, et al.
 
-@prefix book: <http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
-@prefix chapter1: <http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
+@prefix book: <https://doi.org/10.1007/978-3-642-40337-8_1> .
+@prefix chapter1: <https://doi.org/10.1007/978-3-642-40337-8_1> .
 
 :Blau a void:Dataset ; cito:citesAsDataSource book: .
 chapter1: dcterms:isPartOf book: .
