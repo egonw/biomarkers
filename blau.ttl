@@ -35,6 +35,8 @@ umls:C1851920 a ncit:C7057 ; rdfs:label "dopa-responsive dystonia" .
 umls:C0268468 a ncit:C7057 ; rdfs:label "sepiapterin reductase deficiency" .
 umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 
+# anne's disease labels
+
 omim:191290   a ncit:C7057 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
 
 # molecule-disease associations
