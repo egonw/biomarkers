@@ -35,6 +35,8 @@ umls:C1851920 a ncit:C7057 ; rdfs:label "dopa-responsive dystonia" .
 umls:C0268468 a ncit:C7057 ; rdfs:label "sepiapterin reductase deficiency" .
 umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 
+omim:191290   a ncit:C7057 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
+
 # molecule-disease associations
 
 wd:Q408256 a chebi:25367 ; rdfs:label "biopterin" .
@@ -96,5 +98,3 @@ wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl acetate" .
 
 wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl lactate" .
 :assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
-
-
