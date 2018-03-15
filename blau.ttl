@@ -38,11 +38,13 @@ umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 <<<<<<< HEAD
 
 # anne's disease labels
-=======
-# Anne's disease labels
->>>>>>> c4bd3d3686aa3f005a7be04d97892d7551e7660f
 
 omim:191290   a ncit:C7057 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
+omim:608643   a ncit:C7057 ; rdfs:label "Aromatic L-amino acid decarboxylase deficiency" .
+omim:223360   a ncit:C7057 ; rdfs:label "Dopamine Beta-Hydroxylase deficiency" .
+omim:307850   a ncit:C7057 ; rdfs:label "Monoamine Oxidase A deficiency" .
+omim:6126455   a ncit:C7057 ; rdfs:label "Dopamine Trandsporter deficiency" .
+omim:193001   a ncit:C7057 ; rdfs:label "Dopamine-Serotonin Transporter deficiency" .
 
 # Anne's molecule-disease associations Numbers:assoc1000-assoc9999
 
