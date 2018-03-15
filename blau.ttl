@@ -35,10 +35,27 @@ umls:C1851920 a ncit:C7057 ; rdfs:label "dopa-responsive dystonia" .
 umls:C0268468 a ncit:C7057 ; rdfs:label "sepiapterin reductase deficiency" .
 umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 
-#Hello
+<<<<<<< HEAD
+
 # anne's disease labels
+=======
+# Anne's disease labels
+>>>>>>> c4bd3d3686aa3f005a7be04d97892d7551e7660f
 
 omim:191290   a ncit:C7057 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
+
+# Anne's molecule-disease associations Numbers:assoc1000-assoc9999
+
+# Lisa's disease labels
+omim:266100 a  ncit:C7057 ; rdfs:label "Pyridoxine dependent epilepsy" .
+omim:610090 a  ncit:C7057 ; rdfs:label "Pyridox(am)ine 5'-phosphate oxidase deificency" .
+omim:239510 a  ncit:C7057 ; rdfs:label "Hyperprolinaemia, type II" .
+omim:241500 a  ncit:C7057 ; rdfs:label "Congenital Hypophosphatasia" .
+
+# Lisa's molecule-disease associations Numbers:assoc10000-assoc99999
+
+wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl lactate" .
+:assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
 
 # molecule-disease associations
 
