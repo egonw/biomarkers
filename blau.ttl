@@ -113,7 +113,7 @@ CHEBI:26271 a CHEBI:25367 ; rdfs:label "Proline" .
 :assoc10013 a association: ; refersTo: chapter11:, CHEBI:26271 , omim:239510 .
 
 Ensembl:ENSG00000162551 a CHEBI:25367 ; rdfs:label "Alkaline Phosphatase" .
-:assoc10013 a association: ; refersTo: chapter11:, Ensembl:ENSG00000162551 ,omim:241500 .
+:assoc10014 a association: ; refersTo: chapter11:, Ensembl:ENSG00000162551 ,omim:241500 .
 
 # molecule-disease associations
 
