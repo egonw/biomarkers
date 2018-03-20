@@ -54,8 +54,46 @@ omim:241500 a  ncit:C7057 ; rdfs:label "Congenital Hypophosphatasia" .
 
 # Lisa's molecule-disease associations Numbers:assoc10000-assoc99999
 
-wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl lactate" .
-:assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
+CHEBI:18405 a CHEBI:25367 ; rdfs:label "Pyridoxal-P" .
+:assoc10000 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:266100 .
+:assoc10001 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:610090 .
+:assoc10002 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:241500 .
+
+CHEBI:15365 a CHEBI:25367 ; rdfs:label "ASA" .
+:assoc10003 a association: ; refersTo: chapter11:, CHEBI:15365 , omim:266100 .
+
+Ensembl: ENSG00000008311  a CHEBI:25367 ; rdfs:label "alpha aminoadipic semialdehyde" .
+:assoc10004 a association: ; refersTo: chapter11:, Ensembl: ENSG00000008311 , omim:266100 .
+
+CHEBI:17964 a CHEBI:25367 ; rdfs:label "pipecolic acid" .
+:assoc10005 a association: ; refersTo: chapter11:, CHEBI:17964 , omim:266100 .
+
+CHEBI:1582 a CHEBI:25367 ; rdfs:label "3-methoxytyrosine" .
+:assoc10006 a association: ; refersTo: chapter11:, CHEBI:1582 , omim:610090 .
+
+CHEBI:27823 a CHEBI:25367 ; rdfs:label "5-Hydroxyindolacetic acid" .
+:assoc10007 a association: ; refersTo: chapter11:, CHEBI:27823 , omim:610090 .
+
+CHEBI:545959 a CHEBI:25367 ; rdfs:label "homovanillic acid" .
+:assoc10008 a association: ; refersTo: chapter11:, CHEBI:545959 , omim:610090 .
+
+CHEBI:26986 a CHEBI:25367 ; rdfs:label "Threonine" .
+:assoc10009 a association: ; refersTo: chapter11:, CHEBI:26986 , omim:610090 .
+
+CHEBI:86956 a CHEBI:25367 ; rdfs:label "Vanillin Acetic acid" .
+:assoc10010 a association: ; refersTo: chapter11:, CHEBI:86956 , omim:610090 .
+
+CHEBI:18095 a CHEBI:25367 ; rdfs:label "Hydroxyproline" .
+:assoc10011 a association: ; refersTo: chapter11:, CHEBI:18095 , omim:239510 .
+
+CHEBI:17388  a CHEBI:25367 ; rdfs:label "P5C" .
+:assoc10012 a association: ; refersTo: chapter11:, CHEBI:17388  , omim:239510 .
+
+CHEBI:26271 a CHEBI:25367 ; rdfs:label "Proline" .
+:assoc10013 a association: ; refersTo: chapter11:, CHEBI:26271 , omim:239510 .
+
+Ensembl:ENSG00000162551 a CHEBI:25367 ; rdfs:label "Alkaline Phosphatase" .
+:assoc10013 a association: ; refersTo: chapter11:, Ensembl:ENSG00000162551 ,omim:241500 .
 
 # molecule-disease associations
 
