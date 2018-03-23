@@ -37,6 +37,12 @@ umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 
 <<<<<<< HEAD
 
+# Mzolisi's disease labels
+
+
+# MZolisi's molecule-disease associations Numbers:assoc100-assoc999
+
+
 # Anne's disease labels
 
 omim:191290   a ncit:C7057 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
@@ -65,6 +71,8 @@ wd:Q14865372 a chebi:25367 ; rdfs:label "SLC6A3 Transporter" .
 
 wd:Q14916234 a chebi:25367 ; rdfs:label "Vesicular Monoamine Transporter 2" .
 :assoc1005 a association: ; refersTo: chapter31:, wd:Q14916234, omim:193001  .
+
+
 
 # Lisa's disease labels
 omim:266100 a  ncit:C7057 ; rdfs:label "Pyridoxine dependent epilepsy" .
