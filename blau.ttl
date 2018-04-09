@@ -35,13 +35,67 @@ umls:C1851920 a ncit:C7057 ; rdfs:label "dopa-responsive dystonia" .
 umls:C0268468 a ncit:C7057 ; rdfs:label "sepiapterin reductase deficiency" .
 umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 
-<<<<<<< HEAD
-
 # Mzolisi's disease labels
 
 
 # MZolisi's molecule-disease associations Numbers:assoc100-assoc999
 
+# Roel's disease labels
+
+omim:147520 a ncit:C7057 ; rdfs:label "inosine triphosphatase deficiency" .
+omim:610460 a ncit:C7057 ; rdfs:label "thiopurine S-methyltransferase deficiency" .
+omim:604712 a ncit:C7057 ; rdfs:label "mitchondrial ribonucleotide reductase subunit 2 deficiency" .
+omim:609560 a ncit:C7057 ; rdfs:label "thiopurine kinase 2 deficiency" .
+omim:251880 a ncit:C7057 ; rdfs:label "deoxyguanosine kinase deficiency" .
+omim:210100 a ncit:C7057 ; rdfs:label "beta-aminoisobutyratepyruvate transaminase deficiency" .
+omim:237400 a ncit:C7057 ; rdfs:label "beta-alanine alphaketoglutarate transaminase deficiency" .
+omim:613161 a ncit:C7057 ; rdfs:label "beta-ureidopropionase deficiency" .
+omim:222748 a ncit:C7057 ; rdfs:label "dihydropyrimidinase deficiency" .
+omim:274270 a ncit:C7057 ; rdfs:label "dihydropyrimidine dehydrogenase deficiency" .
+omim:131222 a ncit:C7057 ; rdfs:label "thymidine phosphorylase deficiency" .
+omim:266120 a ncit:C7057 ; rdfs:label "pyrimidine 5'-nucleotidase superactivity" .
+omim:266120 a ncit:C7057 ; rdfs:label "pyrimidine 5'-nucleotidase I deficiency" .
+omim:258900 a ncit:C7057 ; rdfs:label "orotic aciduria type I" .
+omim:258920 a ncit:C7057 ; rdfs:label "orotic aciduria type II" .
+omim:263750 a ncit:C7057 ; rdfs:label "dihydroorotate dehydrogenase deficiency" .
+
+# Roel's molecule-disease associations Numbers:assoc100000-assoc999999
+wd:Q425536 a chebi:25367 ; rdfs:label "orotic acid" .
+:assoc100000 a association: ; refersTo: chapter41:, wd:Q425536, omim:258900 .
+:assoc100001 a association: ; refersTo: chapter41:, wd:Q425536, omim:258920 .
+
+wd:Q10859719 a chebi:25367 ; rdfs:label "orotidine" .
+:assoc100002 a association: ; refersTo: chapter41:, wd:Q10859719, omim:258920 .
+
+wd:Q422464 a chebi:25367 ; rdfs:label "thymidine" .
+:assoc100003 a association: ; refersTo: chapter41:, wd:Q422464, omim:131222 .
+:assoc100004 a association: ; refersTo: chapter41:, wd:Q422464, omim:274270 .
+
+wd:Q419140 a chebi:25367 ; rdfs:label "2-deoxyuridine" .
+:assoc100005 a association: ; refersTo: chapter41:, wd:Q419140, omim:131222 .
+
+wd:Q182990 a chebi:25367 ; rdfs:label "uracil" .
+:assoc100006 a association: ; refersTo: chapter41:, wd:Q182990, omim:274270 .
+
+wd:Q3027885 a chebi:25367 ; rdfs:label "dihydrothymine" .
+:assoc100007 a association: ; refersTo: chapter41:, wd:Q3027885, omim:222748 .
+:assoc100008 a association: ; refersTo: chapter41:, wd:Q3027885, omim:613161 .
+
+wd:Q409340 a chebi:25367 ; rdfs:label "dihydrouracil" .
+:assoc100009 a association: ; refersTo: chapter41:, wd:Q409340, omim:222748 .
+:assoc100010 a association: ; refersTo: chapter41:, wd:Q409340, omim:613161 .
+
+wd:Q409340 a chebi:25367 ; rdfs:label "N-carbamoyl-beta-alanine" .
+:assoc100011 a association: ; refersTo: chapter41:, wd:Q3008585, omim:613161 .
+
+wd:Q2823221 a chebi:25367 ; rdfs:label "N-carbamyl-beta-aminoisobutyric acid" .
+:assoc100012 a association: ; refersTo: chapter41:, wd:Q2823221, omim:613161 .
+
+wd:Q310919 a chebi:25367 ; rdfs:label "beta-alanine" .
+:assoc100013 a association: ; refersTo: chapter41:, wd:Q310919, omim:237400 .
+
+wd:Q27102886 a chebi:25367 ; rdfs:label "(S)-beta-aminoisobutyrate" .
+:assoc100014 a association: ; refersTo: chapter41:, wd:Q27102886, omim:210100 .
 
 # Anne's disease labels
 
