@@ -177,6 +177,38 @@ CHEBI:26271 a CHEBI:25367 ; rdfs:label "Proline" .
 Ensembl:ENSG00000162551 a CHEBI:25367 ; rdfs:label "Alkaline Phosphatase" .
 :assoc10014 a association: ; refersTo: chapter11:, Ensembl:ENSG00000162551 ,omim:241500 .
 
+
+# Richard’s disease labels
+omim: 203740 a ncit:C7057 ; rdfs:label "2-oxoglutaric aciduria" .
+omim: 136850 a ncit:C7057 ; rdfs:label "fumarase deficiency" .
+omim: 612073 a ncit:C7057 ; rdfs:label "SCS deficiencies SUCLA2" .
+omim: 245400 a ncit:C7057 ; rdfs:label "SCS deficiency SUCLG1" .
+
+# Richard’s molecule-disease associations Numbers:assoc10000000-assoc10000009
+
+wd:Q27106300 a chebi: 30915; rdfs:label " 2-Oxoglutaric acid" .
+:assoc10000000 a association: ; refersTo: chapter20:, wd: Q27106300, omim:203740.
+:assoc10000001 a association: ; refersTo: chapter20:, wd: Q27106300, omim:136850.
+
+wd:Q139857 a chebi: 5190; rdfs:label "fumaric acid" .
+:assoc10000002 a association: ; refersTo: chapter20:, wd Q139857 omim:136850.
+
+wd:Q213050 a chebi: 15741; rdfs:label " Succinic acid " .
+:assoc10000003 a association: ; refersTo: chapter20:, wd: Q213050, omim:136850.
+
+wd:Q27140247 a chebi: 133076; rdfs:label " C4-DC methylmalonyl-carnitine " .
+:assoc10000004 a association: ; refersTo: chapter20:, wd: Q27140247, omim:612073.
+:assoc10000005 a association: ; refersTo: chapter20:, wd: Q27140247, omim:245400.
+
+wd:Q27140249 a chebi: 73034; rdfs:label " C4-DC succinyl-carnitine " .
+:assoc10000006 a association: ; refersTo: chapter20:, wd: Q27140249, omim:612073.
+:assoc10000007 a association: ; refersTo: chapter20:, wd: Q27140249, omim:245400.
+
+wd:Q239598 a chebi: 6881; rdfs:label " Methylmalonic acid" .
+:assoc10000008 a association: ; refersTo: chapter20:, wd: Q239598, omim:612073.
+:assoc10000009 a association: ; refersTo: chapter20:, wd: Q239598, omim:245400.
+
+
 # molecule-disease associations
 
 wd:Q408256 a chebi:25367 ; rdfs:label "biopterin" .
