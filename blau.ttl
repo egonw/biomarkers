@@ -102,10 +102,6 @@ wd:Q2271580 a chebi:25367 ; rdfs:label "sepiapterin" .
 wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl acetate" .
 :assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
 
-wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl lactate" .
-:assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
-
-
 # Disease labels Chapter41 (Roel Hacking @rhacking)
 
 omim:147520 a ncit:C7057 ; rdfs:label "inosine triphosphatase deficiency" .
@@ -127,91 +123,92 @@ omim:263750 a ncit:C7057 ; rdfs:label "dihydroorotate dehydrogenase deficiency" 
 
 # Molecule-disease associations (Roel Hacking @rhacking)
 wd:Q425536 a chebi:25367 ; rdfs:label "orotic acid" .
-:assoc100000 a association: ; refersTo: chapter41:, wd:Q425536, omim:258900 .
-:assoc100001 a association: ; refersTo: chapter41:, wd:Q425536, omim:258920 .
+:assoc36 a association: ; refersTo: chapter41:, wd:Q425536, omim:258900 .
+:assoc37 a association: ; refersTo: chapter41:, wd:Q425536, omim:258920 .
 
 wd:Q10859719 a chebi:25367 ; rdfs:label "orotidine" .
-:assoc100002 a association: ; refersTo: chapter41:, wd:Q10859719, omim:258920 .
+:assoc38 a association: ; refersTo: chapter41:, wd:Q10859719, omim:258920 .
 
 wd:Q422464 a chebi:25367 ; rdfs:label "thymidine" .
-:assoc100003 a association: ; refersTo: chapter41:, wd:Q422464, omim:131222 .
-:assoc100004 a association: ; refersTo: chapter41:, wd:Q422464, omim:274270 .
+:assoc39 a association: ; refersTo: chapter41:, wd:Q422464, omim:131222 .
+:assoc40 a association: ; refersTo: chapter41:, wd:Q422464, omim:274270 .
 
 wd:Q419140 a chebi:25367 ; rdfs:label "2-deoxyuridine" .
-:assoc100005 a association: ; refersTo: chapter41:, wd:Q419140, omim:131222 .
+:assoc41 a association: ; refersTo: chapter41:, wd:Q419140, omim:131222 .
 
 wd:Q182990 a chebi:25367 ; rdfs:label "uracil" .
-:assoc100006 a association: ; refersTo: chapter41:, wd:Q182990, omim:274270 .
+:assoc42 a association: ; refersTo: chapter41:, wd:Q182990, omim:274270 .
 
 wd:Q3027885 a chebi:25367 ; rdfs:label "dihydrothymine" .
-:assoc100007 a association: ; refersTo: chapter41:, wd:Q3027885, omim:222748 .
-:assoc100008 a association: ; refersTo: chapter41:, wd:Q3027885, omim:613161 .
+:assoc43 a association: ; refersTo: chapter41:, wd:Q3027885, omim:222748 .
+:assoc44 a association: ; refersTo: chapter41:, wd:Q3027885, omim:613161 .
 
 wd:Q409340 a chebi:25367 ; rdfs:label "dihydrouracil" .
-:assoc100009 a association: ; refersTo: chapter41:, wd:Q409340, omim:222748 .
-:assoc100010 a association: ; refersTo: chapter41:, wd:Q409340, omim:613161 .
+:assoc45 a association: ; refersTo: chapter41:, wd:Q409340, omim:222748 .
+:assoc46 a association: ; refersTo: chapter41:, wd:Q409340, omim:613161 .
 
 wd:Q409340 a chebi:25367 ; rdfs:label "N-carbamoyl-beta-alanine" .
-:assoc100011 a association: ; refersTo: chapter41:, wd:Q3008585, omim:613161 .
+:assoc47 a association: ; refersTo: chapter41:, wd:Q3008585, omim:613161 .
 
 wd:Q2823221 a chebi:25367 ; rdfs:label "N-carbamyl-beta-aminoisobutyric acid" .
-:assoc100012 a association: ; refersTo: chapter41:, wd:Q2823221, omim:613161 .
+:assoc48 a association: ; refersTo: chapter41:, wd:Q2823221, omim:613161 .
 
 wd:Q310919 a chebi:25367 ; rdfs:label "beta-alanine" .
-:assoc100013 a association: ; refersTo: chapter41:, wd:Q310919, omim:237400 .
+:assoc49 a association: ; refersTo: chapter41:, wd:Q310919, omim:237400 .
 
 wd:Q27102886 a chebi:25367 ; rdfs:label "(S)-beta-aminoisobutyrate" .
-:assoc100014 a association: ; refersTo: chapter41:, wd:Q27102886, omim:210100 .
+:assoc50 a association: ; refersTo: chapter41:, wd:Q27102886, omim:210100 .
 
 
 # Disease labels chapter31 (Anne Friesacher @Friesacher)
 
-omim:191290   a ncit:C7057 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
-omim:608643   a ncit:C7057 ; rdfs:label "Aromatic L-amino acid decarboxylase deficiency" .
-omim:223360   a ncit:C7057 ; rdfs:label "Dopamine Beta-Hydroxylase deficiency" .
-omim:307850   a ncit:C7057 ; rdfs:label "Monoamine Oxidase A deficiency" .
-omim:6126455   a ncit:C7057 ; rdfs:label "Dopamine Transporter deficiency" .
-omim:193001   a ncit:C7057 ; rdfs:label "Dopamine-Serotonin Transporter deficiency" .
+omim:191290 a ncit:C7057 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
+omim:608643 a ncit:C7057 ; rdfs:label "Aromatic L-amino acid decarboxylase deficiency" .
+omim:223360 a ncit:C7057 ; rdfs:label "Dopamine Beta-Hydroxylase deficiency" .
+omim:307850 a ncit:C7057 ; rdfs:label "Monoamine Oxidase A deficiency" .
+omim:6126455 a ncit:C7057 ; rdfs:label "Dopamine Transporter deficiency" .
+omim:193001 a ncit:C7057 ; rdfs:label "Dopamine-Serotonin Transporter deficiency" .
 
 # Molecule-disease associations (Anne Friesacher @Friesacher)
 
 wd:Q18254977 a chebi:25367 ; rdfs:label "Tyrosine-3-Hydroxylase" .
-:assoc1000 a association: ; refersTo: chapter31:, wd:Q18254977, omim:191290  .
+:assoc51 a association: ; refersTo: chapter31:, wd:Q18254977, omim:191290  .
 
 wd:Q421186 a chebi:25367 ; rdfs:label "Aromatic L-Amino Acid Decarboxylase" .
-:assoc1001 a association: ; refersTo: chapter31:, wd:Q421186, omim:608643  .
+:assoc52 a association: ; refersTo: chapter31:, wd:Q421186, omim:608643  .
 
 wd:Q415762 a chebi:25367 ; rdfs:label "Dopamine Beta-Hydroxylase" .
-:assoc1002 a association: ; refersTo: chapter31:, wd:Q415762, omim:223360   .
+:assoc53 a association: ; refersTo: chapter31:, wd:Q415762, omim:223360   .
 
 wd:Q6901317 a chebi:25367 ; rdfs:label "Monoamine Oxidase A" .
-:assoc1003 a association: ; refersTo: chapter31:, wd:Q6901317, omim:307850  .
+:assoc54 a association: ; refersTo: chapter31:, wd:Q6901317, omim:307850  .
 
 wd:Q14865372 a chebi:25367 ; rdfs:label "SLC6A3 Transporter" .
-:assoc1004 a association: ; refersTo: chapter31:, wd:Q14865372, omim:6126455  .
+:assoc55 a association: ; refersTo: chapter31:, wd:Q14865372, omim:6126455  .
 
 wd:Q14916234 a chebi:25367 ; rdfs:label "Vesicular Monoamine Transporter 2" .
-:assoc1005 a association: ; refersTo: chapter31:, wd:Q14916234, omim:193001  .
+:assoc56 a association: ; refersTo: chapter31:, wd:Q14916234, omim:193001  .
 
 
 # Disease labels Chapter11 (Lisa Held @lisaaheld)
-omim:266100 a  ncit:C7057 ; rdfs:label "Pyridoxine dependent epilepsy" .
-omim:610090 a  ncit:C7057 ; rdfs:label "Pyridox(am)ine 5'-phosphate oxidase deificency" .
-omim:239510 a  ncit:C7057 ; rdfs:label "Hyperprolinaemia, type II" .
-omim:241500 a  ncit:C7057 ; rdfs:label "Congenital Hypophosphatasia" .
+omim:266100 a ncit:C7057 ; rdfs:label "Pyridoxine dependent epilepsy" .
+omim:610090 a ncit:C7057 ; rdfs:label "Pyridox(am)ine 5'-phosphate oxidase deificency" .
+omim:239510 a ncit:C7057 ; rdfs:label "Hyperprolinaemia, type II" .
+omim:241500 a ncit:C7057 ; rdfs:label "Congenital Hypophosphatasia" .
 
 # Molecule-disease associations (Lisa Held @lisaaheld)
 
 CHEBI:18405 a CHEBI:25367 ; rdfs:label "Pyridoxal-P" .
-:assoc10000 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:266100 .
-:assoc10001 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:610090 .
-:assoc10002 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:241500 .
+:assoc57 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:266100 .
+:assoc58 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:610090 .
+:assoc59 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:241500 .
 
 CHEBI:15365 a CHEBI:25367 ; rdfs:label "ASA" .
-:assoc10003 a association: ; refersTo: chapter11:, CHEBI:15365 , omim:266100 .
+:assoc60 a association: ; refersTo: chapter11:, CHEBI:15365 , omim:266100 .
 
-Ensembl: ENSG00000008311  a CHEBI:25367 ; rdfs:label "alpha aminoadipic semialdehyde" .
-:assoc10004 a association: ; refersTo: chapter11:, Ensembl: ENSG00000008311 , omim:266100 .
+##TO DO: check this association in Blau!
+# Ensembl: ENSG00000008311  a CHEBI:25367 ; rdfs:label "alpha aminoadipic semialdehyde" .
+# :assoc10004 a association: ; refersTo: chapter11:, Ensembl: ENSG00000008311 , omim:266100 .
 
 CHEBI:17964 a CHEBI:25367 ; rdfs:label "pipecolic acid" .
 :assoc10005 a association: ; refersTo: chapter11:, CHEBI:17964 , omim:266100 .
