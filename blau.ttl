@@ -15,16 +15,24 @@
 
 # source: Blau, Duran, et al.
 
-@prefix book: <http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
+@prefix book: <http://dx.doi.org/10.1007/978-3-642-40337-8> .
 @prefix chapter1: <http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
+@prefix chapter11: <http://dx.doi.org/10.1007/978-3-642-40337-8_11> .
+@prefix chapter20: <http://dx.doi.org/10.1007/978-3-642-40337-8_20> .
+@prefix chapter31: <http://dx.doi.org/10.1007/978-3-642-40337-8_31> .
+@prefix chapter41: <http://dx.doi.org/10.1007/978-3-642-40337-8_41> .
 
 :Blau a void:Dataset ; cito:citesAsDataSource book: .
 chapter1: dcterms:isPartOf book: .
+chapter11: dcterms:isPartOf book: .
+chapter20: dcterms:isPartOf book: .
+chapter31: dcterms:isPartOf book: .
+chapter41: dcterms:isPartOf book: .
 
 # article sources:
 @prefix article: <https://www.ncbi.nlm.nih.gov/pubmed/> .
 
-# disease labels
+# disease labels Chapter1
 
 umls:C0268467 a ncit:C7057 ; rdfs:label "GTP cyclohydrolase deficiency" .
 umls:C0751434 a ncit:C7057 ; rdfs:label "phenylalanine hydroxylase deficiency" .
@@ -35,178 +43,6 @@ umls:C1851920 a ncit:C7057 ; rdfs:label "dopa-responsive dystonia" .
 umls:C0268468 a ncit:C7057 ; rdfs:label "sepiapterin reductase deficiency" .
 umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 
-# Mzolisi's disease labels
-
-
-# MZolisi's molecule-disease associations Numbers:assoc100-assoc999
-
-# Roel's disease labels
-
-omim:147520 a ncit:C7057 ; rdfs:label "inosine triphosphatase deficiency" .
-omim:610460 a ncit:C7057 ; rdfs:label "thiopurine S-methyltransferase deficiency" .
-omim:604712 a ncit:C7057 ; rdfs:label "mitchondrial ribonucleotide reductase subunit 2 deficiency" .
-omim:609560 a ncit:C7057 ; rdfs:label "thiopurine kinase 2 deficiency" .
-omim:251880 a ncit:C7057 ; rdfs:label "deoxyguanosine kinase deficiency" .
-omim:210100 a ncit:C7057 ; rdfs:label "beta-aminoisobutyratepyruvate transaminase deficiency" .
-omim:237400 a ncit:C7057 ; rdfs:label "beta-alanine alphaketoglutarate transaminase deficiency" .
-omim:613161 a ncit:C7057 ; rdfs:label "beta-ureidopropionase deficiency" .
-omim:222748 a ncit:C7057 ; rdfs:label "dihydropyrimidinase deficiency" .
-omim:274270 a ncit:C7057 ; rdfs:label "dihydropyrimidine dehydrogenase deficiency" .
-omim:131222 a ncit:C7057 ; rdfs:label "thymidine phosphorylase deficiency" .
-omim:266120 a ncit:C7057 ; rdfs:label "pyrimidine 5'-nucleotidase superactivity" .
-omim:266120 a ncit:C7057 ; rdfs:label "pyrimidine 5'-nucleotidase I deficiency" .
-omim:258900 a ncit:C7057 ; rdfs:label "orotic aciduria type I" .
-omim:258920 a ncit:C7057 ; rdfs:label "orotic aciduria type II" .
-omim:263750 a ncit:C7057 ; rdfs:label "dihydroorotate dehydrogenase deficiency" .
-
-# Roel's molecule-disease associations Numbers:assoc100000-assoc999999
-wd:Q425536 a chebi:25367 ; rdfs:label "orotic acid" .
-:assoc100000 a association: ; refersTo: chapter41:, wd:Q425536, omim:258900 .
-:assoc100001 a association: ; refersTo: chapter41:, wd:Q425536, omim:258920 .
-
-wd:Q10859719 a chebi:25367 ; rdfs:label "orotidine" .
-:assoc100002 a association: ; refersTo: chapter41:, wd:Q10859719, omim:258920 .
-
-wd:Q422464 a chebi:25367 ; rdfs:label "thymidine" .
-:assoc100003 a association: ; refersTo: chapter41:, wd:Q422464, omim:131222 .
-:assoc100004 a association: ; refersTo: chapter41:, wd:Q422464, omim:274270 .
-
-wd:Q419140 a chebi:25367 ; rdfs:label "2-deoxyuridine" .
-:assoc100005 a association: ; refersTo: chapter41:, wd:Q419140, omim:131222 .
-
-wd:Q182990 a chebi:25367 ; rdfs:label "uracil" .
-:assoc100006 a association: ; refersTo: chapter41:, wd:Q182990, omim:274270 .
-
-wd:Q3027885 a chebi:25367 ; rdfs:label "dihydrothymine" .
-:assoc100007 a association: ; refersTo: chapter41:, wd:Q3027885, omim:222748 .
-:assoc100008 a association: ; refersTo: chapter41:, wd:Q3027885, omim:613161 .
-
-wd:Q409340 a chebi:25367 ; rdfs:label "dihydrouracil" .
-:assoc100009 a association: ; refersTo: chapter41:, wd:Q409340, omim:222748 .
-:assoc100010 a association: ; refersTo: chapter41:, wd:Q409340, omim:613161 .
-
-wd:Q409340 a chebi:25367 ; rdfs:label "N-carbamoyl-beta-alanine" .
-:assoc100011 a association: ; refersTo: chapter41:, wd:Q3008585, omim:613161 .
-
-wd:Q2823221 a chebi:25367 ; rdfs:label "N-carbamyl-beta-aminoisobutyric acid" .
-:assoc100012 a association: ; refersTo: chapter41:, wd:Q2823221, omim:613161 .
-
-wd:Q310919 a chebi:25367 ; rdfs:label "beta-alanine" .
-:assoc100013 a association: ; refersTo: chapter41:, wd:Q310919, omim:237400 .
-
-wd:Q27102886 a chebi:25367 ; rdfs:label "(S)-beta-aminoisobutyrate" .
-:assoc100014 a association: ; refersTo: chapter41:, wd:Q27102886, omim:210100 .
-
-# Anne's disease labels
-
-omim:191290   a ncit:C7057 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
-omim:608643   a ncit:C7057 ; rdfs:label "Aromatic L-amino acid decarboxylase deficiency" .
-omim:223360   a ncit:C7057 ; rdfs:label "Dopamine Beta-Hydroxylase deficiency" .
-omim:307850   a ncit:C7057 ; rdfs:label "Monoamine Oxidase A deficiency" .
-omim:6126455   a ncit:C7057 ; rdfs:label "Dopamine Transporter deficiency" .
-omim:193001   a ncit:C7057 ; rdfs:label "Dopamine-Serotonin Transporter deficiency" .
-
-# Anne's molecule-disease associations Numbers:assoc1000-assoc9999
-
-wd:Q18254977 a chebi:25367 ; rdfs:label "Tyrosine-3-Hydroxylase" .
-:assoc1000 a association: ; refersTo: chapter31:, wd:Q18254977, omim:191290  .
-
-wd:Q421186 a chebi:25367 ; rdfs:label "Aromatic L-Amino Acid Decarboxylase" .
-:assoc1001 a association: ; refersTo: chapter31:, wd:Q421186, omim:608643  .
-
-wd:Q415762 a chebi:25367 ; rdfs:label "Dopamine Beta-Hydroxylase" .
-:assoc1002 a association: ; refersTo: chapter31:, wd:Q415762, omim:223360   .
-
-wd:Q6901317 a chebi:25367 ; rdfs:label "Monoamine Oxidase A" .
-:assoc1003 a association: ; refersTo: chapter31:, wd:Q6901317, omim:307850  .
-
-wd:Q14865372 a chebi:25367 ; rdfs:label "SLC6A3 Transporter" .
-:assoc1004 a association: ; refersTo: chapter31:, wd:Q14865372, omim:6126455  .
-
-wd:Q14916234 a chebi:25367 ; rdfs:label "Vesicular Monoamine Transporter 2" .
-:assoc1005 a association: ; refersTo: chapter31:, wd:Q14916234, omim:193001  .
-
-
-
-# Lisa's disease labels
-omim:266100 a  ncit:C7057 ; rdfs:label "Pyridoxine dependent epilepsy" .
-omim:610090 a  ncit:C7057 ; rdfs:label "Pyridox(am)ine 5'-phosphate oxidase deificency" .
-omim:239510 a  ncit:C7057 ; rdfs:label "Hyperprolinaemia, type II" .
-omim:241500 a  ncit:C7057 ; rdfs:label "Congenital Hypophosphatasia" .
-
-# Lisa's molecule-disease associations Numbers:assoc10000-assoc99999
-
-CHEBI:18405 a CHEBI:25367 ; rdfs:label "Pyridoxal-P" .
-:assoc10000 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:266100 .
-:assoc10001 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:610090 .
-:assoc10002 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:241500 .
-
-CHEBI:15365 a CHEBI:25367 ; rdfs:label "ASA" .
-:assoc10003 a association: ; refersTo: chapter11:, CHEBI:15365 , omim:266100 .
-
-Ensembl: ENSG00000008311  a CHEBI:25367 ; rdfs:label "alpha aminoadipic semialdehyde" .
-:assoc10004 a association: ; refersTo: chapter11:, Ensembl: ENSG00000008311 , omim:266100 .
-
-CHEBI:17964 a CHEBI:25367 ; rdfs:label "pipecolic acid" .
-:assoc10005 a association: ; refersTo: chapter11:, CHEBI:17964 , omim:266100 .
-
-CHEBI:1582 a CHEBI:25367 ; rdfs:label "3-methoxytyrosine" .
-:assoc10006 a association: ; refersTo: chapter11:, CHEBI:1582 , omim:610090 .
-
-CHEBI:27823 a CHEBI:25367 ; rdfs:label "5-Hydroxyindolacetic acid" .
-:assoc10007 a association: ; refersTo: chapter11:, CHEBI:27823 , omim:610090 .
-
-CHEBI:545959 a CHEBI:25367 ; rdfs:label "homovanillic acid" .
-:assoc10008 a association: ; refersTo: chapter11:, CHEBI:545959 , omim:610090 .
-
-CHEBI:26986 a CHEBI:25367 ; rdfs:label "Threonine" .
-:assoc10009 a association: ; refersTo: chapter11:, CHEBI:26986 , omim:610090 .
-
-CHEBI:86956 a CHEBI:25367 ; rdfs:label "Vanillin Acetic acid" .
-:assoc10010 a association: ; refersTo: chapter11:, CHEBI:86956 , omim:610090 .
-
-CHEBI:18095 a CHEBI:25367 ; rdfs:label "Hydroxyproline" .
-:assoc10011 a association: ; refersTo: chapter11:, CHEBI:18095 , omim:239510 .
-
-CHEBI:17388  a CHEBI:25367 ; rdfs:label "P5C" .
-:assoc10012 a association: ; refersTo: chapter11:, CHEBI:17388  , omim:239510 .
-
-CHEBI:26271 a CHEBI:25367 ; rdfs:label "Proline" .
-:assoc10013 a association: ; refersTo: chapter11:, CHEBI:26271 , omim:239510 .
-
-Ensembl:ENSG00000162551 a CHEBI:25367 ; rdfs:label "Alkaline Phosphatase" .
-:assoc10014 a association: ; refersTo: chapter11:, Ensembl:ENSG00000162551 ,omim:241500 .
-
-
-# Richard’s disease labels
-omim: 203740 a ncit:C7057 ; rdfs:label "2-oxoglutaric aciduria" .
-omim: 136850 a ncit:C7057 ; rdfs:label "fumarase deficiency" .
-omim: 612073 a ncit:C7057 ; rdfs:label "SCS deficiencies SUCLA2" .
-omim: 245400 a ncit:C7057 ; rdfs:label "SCS deficiency SUCLG1" .
-
-# Richard’s molecule-disease associations Numbers:assoc10000000-assoc10000009
-
-wd:Q27106300 a chebi: 30915; rdfs:label " 2-Oxoglutaric acid" .
-:assoc10000000 a association: ; refersTo: chapter20:, wd: Q27106300, omim:203740.
-:assoc10000001 a association: ; refersTo: chapter20:, wd: Q27106300, omim:136850.
-
-wd:Q139857 a chebi: 5190; rdfs:label "fumaric acid" .
-:assoc10000002 a association: ; refersTo: chapter20:, wd Q139857 omim:136850.
-
-wd:Q213050 a chebi: 15741; rdfs:label " Succinic acid " .
-:assoc10000003 a association: ; refersTo: chapter20:, wd: Q213050, omim:136850.
-
-wd:Q27140247 a chebi: 133076; rdfs:label " C4-DC methylmalonyl-carnitine " .
-:assoc10000004 a association: ; refersTo: chapter20:, wd: Q27140247, omim:612073.
-:assoc10000005 a association: ; refersTo: chapter20:, wd: Q27140247, omim:245400.
-
-wd:Q27140249 a chebi: 73034; rdfs:label " C4-DC succinyl-carnitine " .
-:assoc10000006 a association: ; refersTo: chapter20:, wd: Q27140249, omim:612073.
-:assoc10000007 a association: ; refersTo: chapter20:, wd: Q27140249, omim:245400.
-
-wd:Q239598 a chebi: 6881; rdfs:label " Methylmalonic acid" .
-:assoc10000008 a association: ; refersTo: chapter20:, wd: Q239598, omim:612073.
-:assoc10000009 a association: ; refersTo: chapter20:, wd: Q239598, omim:245400.
 
 
 # molecule-disease associations
@@ -270,3 +106,168 @@ wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl acetate" .
 
 wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl lactate" .
 :assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
+
+# Disease labels Chapter41 (Roel)
+
+omim:147520 a ncit:C7057 ; rdfs:label "inosine triphosphatase deficiency" .
+omim:610460 a ncit:C7057 ; rdfs:label "thiopurine S-methyltransferase deficiency" .
+omim:604712 a ncit:C7057 ; rdfs:label "mitchondrial ribonucleotide reductase subunit 2 deficiency" .
+omim:609560 a ncit:C7057 ; rdfs:label "thiopurine kinase 2 deficiency" .
+omim:251880 a ncit:C7057 ; rdfs:label "deoxyguanosine kinase deficiency" .
+omim:210100 a ncit:C7057 ; rdfs:label "beta-aminoisobutyratepyruvate transaminase deficiency" .
+omim:237400 a ncit:C7057 ; rdfs:label "beta-alanine alphaketoglutarate transaminase deficiency" .
+omim:613161 a ncit:C7057 ; rdfs:label "beta-ureidopropionase deficiency" .
+omim:222748 a ncit:C7057 ; rdfs:label "dihydropyrimidinase deficiency" .
+omim:274270 a ncit:C7057 ; rdfs:label "dihydropyrimidine dehydrogenase deficiency" .
+omim:131222 a ncit:C7057 ; rdfs:label "thymidine phosphorylase deficiency" .
+omim:266120 a ncit:C7057 ; rdfs:label "pyrimidine 5'-nucleotidase superactivity" .
+omim:266120 a ncit:C7057 ; rdfs:label "pyrimidine 5'-nucleotidase I deficiency" .
+omim:258900 a ncit:C7057 ; rdfs:label "orotic aciduria type I" .
+omim:258920 a ncit:C7057 ; rdfs:label "orotic aciduria type II" .
+omim:263750 a ncit:C7057 ; rdfs:label "dihydroorotate dehydrogenase deficiency" .
+
+# Molecule-disease associations (Roel)
+wd:Q425536 a chebi:25367 ; rdfs:label "orotic acid" .
+:assoc100000 a association: ; refersTo: chapter41:, wd:Q425536, omim:258900 .
+:assoc100001 a association: ; refersTo: chapter41:, wd:Q425536, omim:258920 .
+
+wd:Q10859719 a chebi:25367 ; rdfs:label "orotidine" .
+:assoc100002 a association: ; refersTo: chapter41:, wd:Q10859719, omim:258920 .
+
+wd:Q422464 a chebi:25367 ; rdfs:label "thymidine" .
+:assoc100003 a association: ; refersTo: chapter41:, wd:Q422464, omim:131222 .
+:assoc100004 a association: ; refersTo: chapter41:, wd:Q422464, omim:274270 .
+
+wd:Q419140 a chebi:25367 ; rdfs:label "2-deoxyuridine" .
+:assoc100005 a association: ; refersTo: chapter41:, wd:Q419140, omim:131222 .
+
+wd:Q182990 a chebi:25367 ; rdfs:label "uracil" .
+:assoc100006 a association: ; refersTo: chapter41:, wd:Q182990, omim:274270 .
+
+wd:Q3027885 a chebi:25367 ; rdfs:label "dihydrothymine" .
+:assoc100007 a association: ; refersTo: chapter41:, wd:Q3027885, omim:222748 .
+:assoc100008 a association: ; refersTo: chapter41:, wd:Q3027885, omim:613161 .
+
+wd:Q409340 a chebi:25367 ; rdfs:label "dihydrouracil" .
+:assoc100009 a association: ; refersTo: chapter41:, wd:Q409340, omim:222748 .
+:assoc100010 a association: ; refersTo: chapter41:, wd:Q409340, omim:613161 .
+
+wd:Q409340 a chebi:25367 ; rdfs:label "N-carbamoyl-beta-alanine" .
+:assoc100011 a association: ; refersTo: chapter41:, wd:Q3008585, omim:613161 .
+
+wd:Q2823221 a chebi:25367 ; rdfs:label "N-carbamyl-beta-aminoisobutyric acid" .
+:assoc100012 a association: ; refersTo: chapter41:, wd:Q2823221, omim:613161 .
+
+wd:Q310919 a chebi:25367 ; rdfs:label "beta-alanine" .
+:assoc100013 a association: ; refersTo: chapter41:, wd:Q310919, omim:237400 .
+
+wd:Q27102886 a chebi:25367 ; rdfs:label "(S)-beta-aminoisobutyrate" .
+:assoc100014 a association: ; refersTo: chapter41:, wd:Q27102886, omim:210100 .
+
+# Disease labels chapter31 (Anne)
+
+omim:191290   a ncit:C7057 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
+omim:608643   a ncit:C7057 ; rdfs:label "Aromatic L-amino acid decarboxylase deficiency" .
+omim:223360   a ncit:C7057 ; rdfs:label "Dopamine Beta-Hydroxylase deficiency" .
+omim:307850   a ncit:C7057 ; rdfs:label "Monoamine Oxidase A deficiency" .
+omim:6126455   a ncit:C7057 ; rdfs:label "Dopamine Transporter deficiency" .
+omim:193001   a ncit:C7057 ; rdfs:label "Dopamine-Serotonin Transporter deficiency" .
+
+# Molecule-disease associations (Anne)
+
+wd:Q18254977 a chebi:25367 ; rdfs:label "Tyrosine-3-Hydroxylase" .
+:assoc1000 a association: ; refersTo: chapter31:, wd:Q18254977, omim:191290  .
+
+wd:Q421186 a chebi:25367 ; rdfs:label "Aromatic L-Amino Acid Decarboxylase" .
+:assoc1001 a association: ; refersTo: chapter31:, wd:Q421186, omim:608643  .
+
+wd:Q415762 a chebi:25367 ; rdfs:label "Dopamine Beta-Hydroxylase" .
+:assoc1002 a association: ; refersTo: chapter31:, wd:Q415762, omim:223360   .
+
+wd:Q6901317 a chebi:25367 ; rdfs:label "Monoamine Oxidase A" .
+:assoc1003 a association: ; refersTo: chapter31:, wd:Q6901317, omim:307850  .
+
+wd:Q14865372 a chebi:25367 ; rdfs:label "SLC6A3 Transporter" .
+:assoc1004 a association: ; refersTo: chapter31:, wd:Q14865372, omim:6126455  .
+
+wd:Q14916234 a chebi:25367 ; rdfs:label "Vesicular Monoamine Transporter 2" .
+:assoc1005 a association: ; refersTo: chapter31:, wd:Q14916234, omim:193001  .
+
+# Disease labels Chapter11 (Lisa)
+omim:266100 a  ncit:C7057 ; rdfs:label "Pyridoxine dependent epilepsy" .
+omim:610090 a  ncit:C7057 ; rdfs:label "Pyridox(am)ine 5'-phosphate oxidase deificency" .
+omim:239510 a  ncit:C7057 ; rdfs:label "Hyperprolinaemia, type II" .
+omim:241500 a  ncit:C7057 ; rdfs:label "Congenital Hypophosphatasia" .
+
+# Molecule-disease associations (Lisa)
+
+CHEBI:18405 a CHEBI:25367 ; rdfs:label "Pyridoxal-P" .
+:assoc10000 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:266100 .
+:assoc10001 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:610090 .
+:assoc10002 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:241500 .
+
+CHEBI:15365 a CHEBI:25367 ; rdfs:label "ASA" .
+:assoc10003 a association: ; refersTo: chapter11:, CHEBI:15365 , omim:266100 .
+
+Ensembl: ENSG00000008311  a CHEBI:25367 ; rdfs:label "alpha aminoadipic semialdehyde" .
+:assoc10004 a association: ; refersTo: chapter11:, Ensembl: ENSG00000008311 , omim:266100 .
+
+CHEBI:17964 a CHEBI:25367 ; rdfs:label "pipecolic acid" .
+:assoc10005 a association: ; refersTo: chapter11:, CHEBI:17964 , omim:266100 .
+
+CHEBI:1582 a CHEBI:25367 ; rdfs:label "3-methoxytyrosine" .
+:assoc10006 a association: ; refersTo: chapter11:, CHEBI:1582 , omim:610090 .
+
+CHEBI:27823 a CHEBI:25367 ; rdfs:label "5-Hydroxyindolacetic acid" .
+:assoc10007 a association: ; refersTo: chapter11:, CHEBI:27823 , omim:610090 .
+
+CHEBI:545959 a CHEBI:25367 ; rdfs:label "homovanillic acid" .
+:assoc10008 a association: ; refersTo: chapter11:, CHEBI:545959 , omim:610090 .
+
+CHEBI:26986 a CHEBI:25367 ; rdfs:label "Threonine" .
+:assoc10009 a association: ; refersTo: chapter11:, CHEBI:26986 , omim:610090 .
+
+CHEBI:86956 a CHEBI:25367 ; rdfs:label "Vanillin Acetic acid" .
+:assoc10010 a association: ; refersTo: chapter11:, CHEBI:86956 , omim:610090 .
+
+CHEBI:18095 a CHEBI:25367 ; rdfs:label "Hydroxyproline" .
+:assoc10011 a association: ; refersTo: chapter11:, CHEBI:18095 , omim:239510 .
+
+CHEBI:17388  a CHEBI:25367 ; rdfs:label "P5C" .
+:assoc10012 a association: ; refersTo: chapter11:, CHEBI:17388  , omim:239510 .
+
+CHEBI:26271 a CHEBI:25367 ; rdfs:label "Proline" .
+:assoc10013 a association: ; refersTo: chapter11:, CHEBI:26271 , omim:239510 .
+
+Ensembl:ENSG00000162551 a CHEBI:25367 ; rdfs:label "Alkaline Phosphatase" .
+:assoc10014 a association: ; refersTo: chapter11:, Ensembl:ENSG00000162551 ,omim:241500 .
+
+# Disease labels chapter20 (Richard)
+omim: 203740 a ncit:C7057 ; rdfs:label "2-oxoglutaric aciduria" .
+omim: 136850 a ncit:C7057 ; rdfs:label "fumarase deficiency" .
+omim: 612073 a ncit:C7057 ; rdfs:label "SCS deficiencies SUCLA2" .
+omim: 245400 a ncit:C7057 ; rdfs:label "SCS deficiency SUCLG1" .
+
+# Molecule-disease associations (Richard)
+
+wd:Q27106300 a chebi: 30915; rdfs:label " 2-Oxoglutaric acid" .
+:assoc10000000 a association: ; refersTo: chapter20:, wd: Q27106300, omim:203740.
+:assoc10000001 a association: ; refersTo: chapter20:, wd: Q27106300, omim:136850.
+
+wd:Q139857 a chebi: 5190; rdfs:label "fumaric acid" .
+:assoc10000002 a association: ; refersTo: chapter20:, wd Q139857 omim:136850.
+
+wd:Q213050 a chebi: 15741; rdfs:label " Succinic acid " .
+:assoc10000003 a association: ; refersTo: chapter20:, wd: Q213050, omim:136850.
+
+wd:Q27140247 a chebi: 133076; rdfs:label " C4-DC methylmalonyl-carnitine " .
+:assoc10000004 a association: ; refersTo: chapter20:, wd: Q27140247, omim:612073.
+:assoc10000005 a association: ; refersTo: chapter20:, wd: Q27140247, omim:245400.
+
+wd:Q27140249 a chebi: 73034; rdfs:label " C4-DC succinyl-carnitine " .
+:assoc10000006 a association: ; refersTo: chapter20:, wd: Q27140249, omim:612073.
+:assoc10000007 a association: ; refersTo: chapter20:, wd: Q27140249, omim:245400.
+
+wd:Q239598 a chebi: 6881; rdfs:label " Methylmalonic acid" .
+:assoc10000008 a association: ; refersTo: chapter20:, wd: Q239598, omim:612073.
+:assoc10000009 a association: ; refersTo: chapter20:, wd: Q239598, omim:245400.
