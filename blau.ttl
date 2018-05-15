@@ -32,7 +32,7 @@ chapter41: dcterms:isPartOf book: .
 # article sources:
 @prefix article: <https://www.ncbi.nlm.nih.gov/pubmed/> .
 
-# disease labels Chapter1
+# disease labels Chapter1 (Egon Willighagen @egonw)
 
 umls:C0268467 a ncit:C7057 ; rdfs:label "GTP cyclohydrolase deficiency" .
 umls:C0751434 a ncit:C7057 ; rdfs:label "phenylalanine hydroxylase deficiency" .
@@ -43,9 +43,7 @@ umls:C1851920 a ncit:C7057 ; rdfs:label "dopa-responsive dystonia" .
 umls:C0268468 a ncit:C7057 ; rdfs:label "sepiapterin reductase deficiency" .
 umls:C0268490 a ncit:C7057 ; rdfs:label "tyrosinaemia, type I" .
 
-
-
-# molecule-disease associations
+# molecule-disease associations (Egon Willighagen @egonw)
 
 wd:Q408256 a chebi:25367 ; rdfs:label "biopterin" .
 :assoc1 a association: ; refersTo: chapter1:, wd:Q408256, umls:C0268467 .
@@ -107,7 +105,8 @@ wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl acetate" .
 wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl lactate" .
 :assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
 
-# Disease labels Chapter41 (Roel)
+
+# Disease labels Chapter41 (Roel Hacking @rhacking)
 
 omim:147520 a ncit:C7057 ; rdfs:label "inosine triphosphatase deficiency" .
 omim:610460 a ncit:C7057 ; rdfs:label "thiopurine S-methyltransferase deficiency" .
@@ -126,7 +125,7 @@ omim:258900 a ncit:C7057 ; rdfs:label "orotic aciduria type I" .
 omim:258920 a ncit:C7057 ; rdfs:label "orotic aciduria type II" .
 omim:263750 a ncit:C7057 ; rdfs:label "dihydroorotate dehydrogenase deficiency" .
 
-# Molecule-disease associations (Roel)
+# Molecule-disease associations (Roel Hacking @rhacking)
 wd:Q425536 a chebi:25367 ; rdfs:label "orotic acid" .
 :assoc100000 a association: ; refersTo: chapter41:, wd:Q425536, omim:258900 .
 :assoc100001 a association: ; refersTo: chapter41:, wd:Q425536, omim:258920 .
@@ -164,7 +163,8 @@ wd:Q310919 a chebi:25367 ; rdfs:label "beta-alanine" .
 wd:Q27102886 a chebi:25367 ; rdfs:label "(S)-beta-aminoisobutyrate" .
 :assoc100014 a association: ; refersTo: chapter41:, wd:Q27102886, omim:210100 .
 
-# Disease labels chapter31 (Anne)
+
+# Disease labels chapter31 (Anne Friesacher @Friesacher)
 
 omim:191290   a ncit:C7057 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
 omim:608643   a ncit:C7057 ; rdfs:label "Aromatic L-amino acid decarboxylase deficiency" .
@@ -173,7 +173,7 @@ omim:307850   a ncit:C7057 ; rdfs:label "Monoamine Oxidase A deficiency" .
 omim:6126455   a ncit:C7057 ; rdfs:label "Dopamine Transporter deficiency" .
 omim:193001   a ncit:C7057 ; rdfs:label "Dopamine-Serotonin Transporter deficiency" .
 
-# Molecule-disease associations (Anne)
+# Molecule-disease associations (Anne Friesacher @Friesacher)
 
 wd:Q18254977 a chebi:25367 ; rdfs:label "Tyrosine-3-Hydroxylase" .
 :assoc1000 a association: ; refersTo: chapter31:, wd:Q18254977, omim:191290  .
@@ -193,13 +193,14 @@ wd:Q14865372 a chebi:25367 ; rdfs:label "SLC6A3 Transporter" .
 wd:Q14916234 a chebi:25367 ; rdfs:label "Vesicular Monoamine Transporter 2" .
 :assoc1005 a association: ; refersTo: chapter31:, wd:Q14916234, omim:193001  .
 
-# Disease labels Chapter11 (Lisa)
+
+# Disease labels Chapter11 (Lisa Held @lisaaheld)
 omim:266100 a  ncit:C7057 ; rdfs:label "Pyridoxine dependent epilepsy" .
 omim:610090 a  ncit:C7057 ; rdfs:label "Pyridox(am)ine 5'-phosphate oxidase deificency" .
 omim:239510 a  ncit:C7057 ; rdfs:label "Hyperprolinaemia, type II" .
 omim:241500 a  ncit:C7057 ; rdfs:label "Congenital Hypophosphatasia" .
 
-# Molecule-disease associations (Lisa)
+# Molecule-disease associations (Lisa Held @lisaaheld)
 
 CHEBI:18405 a CHEBI:25367 ; rdfs:label "Pyridoxal-P" .
 :assoc10000 a association: ; refersTo: chapter11:, CHEBI:18405 , omim:266100 .
@@ -242,13 +243,14 @@ CHEBI:26271 a CHEBI:25367 ; rdfs:label "Proline" .
 Ensembl:ENSG00000162551 a CHEBI:25367 ; rdfs:label "Alkaline Phosphatase" .
 :assoc10014 a association: ; refersTo: chapter11:, Ensembl:ENSG00000162551 ,omim:241500 .
 
-# Disease labels chapter20 (Richard)
+
+# Disease labels chapter20 (Richard Devela @RichardD97)
 omim: 203740 a ncit:C7057 ; rdfs:label "2-oxoglutaric aciduria" .
 omim: 136850 a ncit:C7057 ; rdfs:label "fumarase deficiency" .
 omim: 612073 a ncit:C7057 ; rdfs:label "SCS deficiencies SUCLA2" .
 omim: 245400 a ncit:C7057 ; rdfs:label "SCS deficiency SUCLG1" .
 
-# Molecule-disease associations (Richard)
+# Molecule-disease associations (Richard Devela @RichardD97)
 
 wd:Q27106300 a chebi: 30915; rdfs:label " 2-Oxoglutaric acid" .
 :assoc10000000 a association: ; refersTo: chapter20:, wd: Q27106300, omim:203740.
