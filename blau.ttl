@@ -192,7 +192,7 @@ wd:Q14916234 a chebi:25367 ; rdfs:label "Vesicular Monoamine Transporter 2" .
 
 # Disease labels Chapter11 (Lisa Held @lisaaheld)
 omim:266100 a ncit:C7057 ; rdfs:label "Pyridoxine dependent epilepsy" .
-omim:610090 a ncit:C7057 ; rdfs:label "Pyridox(am)ine 5'-phosphate oxidase deificency" .
+omim:610090 a ncit:C7057 ; rdfs:label "Pyridox(am)ine 5'-phosphate oxidase deficiency" .
 omim:239510 a ncit:C7057 ; rdfs:label "Hyperprolinaemia, type II" .
 omim:241500 a ncit:C7057 ; rdfs:label "Congenital Hypophosphatasia" .
 
@@ -208,37 +208,38 @@ CHEBI:15365 a CHEBI:25367 ; rdfs:label "ASA" .
 
 ##TO DO: check this association in Blau!
 # Ensembl: ENSG00000008311  a CHEBI:25367 ; rdfs:label "alpha aminoadipic semialdehyde" .
-# :assoc10004 a association: ; refersTo: chapter11:, Ensembl: ENSG00000008311 , omim:266100 .
+# :assoc61 a association: ; refersTo: chapter11:, Ensembl: ENSG00000008311 , omim:266100 .
 
 CHEBI:17964 a CHEBI:25367 ; rdfs:label "pipecolic acid" .
-:assoc10005 a association: ; refersTo: chapter11:, CHEBI:17964 , omim:266100 .
+:assoc62 a association: ; refersTo: chapter11:, CHEBI:17964 , omim:266100 .
 
 CHEBI:1582 a CHEBI:25367 ; rdfs:label "3-methoxytyrosine" .
-:assoc10006 a association: ; refersTo: chapter11:, CHEBI:1582 , omim:610090 .
+:assoc63 a association: ; refersTo: chapter11:, CHEBI:1582 , omim:610090 .
 
 CHEBI:27823 a CHEBI:25367 ; rdfs:label "5-Hydroxyindolacetic acid" .
-:assoc10007 a association: ; refersTo: chapter11:, CHEBI:27823 , omim:610090 .
+:assoc64 a association: ; refersTo: chapter11:, CHEBI:27823 , omim:610090 .
 
 CHEBI:545959 a CHEBI:25367 ; rdfs:label "homovanillic acid" .
-:assoc10008 a association: ; refersTo: chapter11:, CHEBI:545959 , omim:610090 .
+:assoc65 a association: ; refersTo: chapter11:, CHEBI:545959 , omim:610090 .
 
 CHEBI:26986 a CHEBI:25367 ; rdfs:label "Threonine" .
-:assoc10009 a association: ; refersTo: chapter11:, CHEBI:26986 , omim:610090 .
+:assoc66 a association: ; refersTo: chapter11:, CHEBI:26986 , omim:610090 .
 
 CHEBI:86956 a CHEBI:25367 ; rdfs:label "Vanillin Acetic acid" .
-:assoc10010 a association: ; refersTo: chapter11:, CHEBI:86956 , omim:610090 .
+:assoc67 a association: ; refersTo: chapter11:, CHEBI:86956 , omim:610090 .
 
 CHEBI:18095 a CHEBI:25367 ; rdfs:label "Hydroxyproline" .
-:assoc10011 a association: ; refersTo: chapter11:, CHEBI:18095 , omim:239510 .
+:assoc68 a association: ; refersTo: chapter11:, CHEBI:18095 , omim:239510 .
 
 CHEBI:17388  a CHEBI:25367 ; rdfs:label "P5C" .
-:assoc10012 a association: ; refersTo: chapter11:, CHEBI:17388  , omim:239510 .
+:assoc69 a association: ; refersTo: chapter11:, CHEBI:17388  , omim:239510 .
 
 CHEBI:26271 a CHEBI:25367 ; rdfs:label "Proline" .
-:assoc10013 a association: ; refersTo: chapter11:, CHEBI:26271 , omim:239510 .
+:assoc70 a association: ; refersTo: chapter11:, CHEBI:26271 , omim:239510 .
 
-Ensembl:ENSG00000162551 a CHEBI:25367 ; rdfs:label "Alkaline Phosphatase" .
-:assoc10014 a association: ; refersTo: chapter11:, Ensembl:ENSG00000162551 ,omim:241500 .
+##TO DO: check this association in Blau!
+#Ensembl:ENSG00000162551 a CHEBI:25367 ; rdfs:label "Alkaline Phosphatase" .
+#:assoc71 a association: ; refersTo: chapter11:, Ensembl:ENSG00000162551 ,omim:241500 .
 
 
 # Disease labels chapter20 (Richard Devela @RichardD97)
@@ -249,24 +250,24 @@ omim: 245400 a ncit:C7057 ; rdfs:label "SCS deficiency SUCLG1" .
 
 # Molecule-disease associations (Richard Devela @RichardD97)
 
-wd:Q27106300 a chebi: 30915; rdfs:label " 2-Oxoglutaric acid" .
-:assoc10000000 a association: ; refersTo: chapter20:, wd: Q27106300, omim:203740.
-:assoc10000001 a association: ; refersTo: chapter20:, wd: Q27106300, omim:136850.
+wd:Q27106300 a CHEBI:25367; rdfs:label " 2-Oxoglutaric acid" .
+:assoc72 a association: ; refersTo: chapter20:, wd:Q27106300, omim:203740 .
+:assoc73 a association: ; refersTo: chapter20:, wd:Q27106300, omim:136850 .
 
-wd:Q139857 a chebi: 5190; rdfs:label "fumaric acid" .
-:assoc10000002 a association: ; refersTo: chapter20:, wd Q139857 omim:136850.
+wd:Q139857 a CHEBI:25367; rdfs:label "fumaric acid" .
+:assoc74 a association: ; refersTo: chapter20:, wd:Q139857 omim:136850 .
 
-wd:Q213050 a chebi: 15741; rdfs:label " Succinic acid " .
-:assoc10000003 a association: ; refersTo: chapter20:, wd: Q213050, omim:136850.
+wd:Q213050 a CHEBI:25367; rdfs:label " Succinic acid " .
+:assoc75 a association: ; refersTo: chapter20:, wd:Q213050, omim:136850 .
 
-wd:Q27140247 a chebi: 133076; rdfs:label " C4-DC methylmalonyl-carnitine " .
-:assoc10000004 a association: ; refersTo: chapter20:, wd: Q27140247, omim:612073.
-:assoc10000005 a association: ; refersTo: chapter20:, wd: Q27140247, omim:245400.
+wd:Q27140247 a CHEBI:25367; rdfs:label " C4-DC methylmalonyl-carnitine " .
+:assoc76 a association: ; refersTo: chapter20:, wd:Q27140247, omim:612073 .
+:assoc77 a association: ; refersTo: chapter20:, wd:Q27140247, omim:245400 .
 
-wd:Q27140249 a chebi: 73034; rdfs:label " C4-DC succinyl-carnitine " .
-:assoc10000006 a association: ; refersTo: chapter20:, wd: Q27140249, omim:612073.
-:assoc10000007 a association: ; refersTo: chapter20:, wd: Q27140249, omim:245400.
+wd:Q27140249 a CHEBI:25367; rdfs:label " C4-DC succinyl-carnitine " .
+:assoc78 a association: ; refersTo: chapter20:, wd:Q27140249, omim:612073 .
+:assoc79 a association: ; refersTo: chapter20:, wd:Q27140249, omim:245400 .
 
-wd:Q239598 a chebi: 6881; rdfs:label " Methylmalonic acid" .
-:assoc10000008 a association: ; refersTo: chapter20:, wd: Q239598, omim:612073.
-:assoc10000009 a association: ; refersTo: chapter20:, wd: Q239598, omim:245400.
+wd:Q239598 a CHEBI:25367; rdfs:label " Methylmalonic acid" .
+:assoc80 a association: ; refersTo: chapter20:, wd:Q239598, omim:612073 .
+:assoc81 a association: ; refersTo: chapter20:, wd:Q239598, omim:245400 .
