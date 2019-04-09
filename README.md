@@ -5,17 +5,17 @@
 This repository exists to collect information about (initially) metabolite biomarkers.
 Originally, I was going for metabolite-disease biomarker relationships, but it turns out
 there is also literature with process-metabolite relationships, like biomarkers for
-coffee consumption. The are modelled similarly.
+coffee consumption. They are modelled similarly.
 
 All content in this repository is available as CCZero. If you like to contribute, please make a
-fork, make changes, and send me a pull request. By making a pull request, you make all content
-in the pull request avaiable as CCZero too.
+fork, make changes, and send me a pull request. By making a pull request, you confirm that
+you make your content in the pull request avaiable as CCZero too.
 
 Attribution to this data collection can, at this momoment, be made to this GitHub repository:
 
     Willighagen, E.L., 2016, Biomarkers, GitHub, Available from https://github.com/egonw/biomarkers/
 
-Additionally, a (future) data deposition can be cited.
+Additionally, a (future) data deposition will be made citable.
 
 ## data depositions
 
