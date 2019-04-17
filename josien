@@ -1,1 +1,38 @@
-Xanthinuria 
+@prefix : <http://egonw.github.com/biomarkers/blau/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix umls: <http://bioportal.bioontology.org/ontologies/umls/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix omim: <http://bio2rdf.org/omim:> .
+@prefix doi: <http://dx.doi.org/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> .
+@prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+
+@prefix association: <http://semanticscience.org/resource/SIO_000993> .
+@prefix refersTo: <http://semanticscience.or/resource/SIO_000628> .
+
+# source: Blau, Duran, et al.
+
+@prefix book: <http://dx.doi.org/10.1007/978-3-642-40337-8> .
+@prefix chapter1: <http://dx.doi.org/10.1007/978-3-642-40337-8_41> .
+
+# disease labels Chapter41
+
+omim:278300 a ncit:C7057 ; rdfs:label "Xanthine dehydrogenase deficiency"
+omim:603592 a ncit:C7057 ; rdfs:label "Xanthine dehydrogenase and aldehyde oxidase, combined deficiency"
+
+
+#molecule-disease associations 
+
+wd:Q15318 a ncit:C7057 ; rdfs:label "Xanthine" .
+:assoc1 a association ; refersTo: chapter41; wd:Q15318, omim:278300 . 
+:assoc2 a association ; refersTo: chapter41; wd:Q15318, omim:603592 .
+
+wd:Q410305 a chebi:25367 ; rdfs:label "Hypoxanthine" .
+:assoc1 a association ; refersTo: chapter41; wd:Q410305, omim:278300 .
+:assoc2 a association ; refersTo: chapter41l wd:Q410305, omim:603592 . 
+
+
+
