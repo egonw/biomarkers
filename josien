@@ -29,7 +29,6 @@ chapter41: dcterms:isPartOf book: .
 omim:278300 a ncit:C7057 ; rdfs:label "Xanthine dehydrogenase deficiency" .
 omim:603592 a ncit:C7057 ; rdfs:label "Xanthine dehydrogenase and aldehyde oxidase, combined deficiency" .
 
-
 #molecule-disease associations 
 
 wd:Q15318 a chebi:25367 ; rdfs:label "Xanthine" .
