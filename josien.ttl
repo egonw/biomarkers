@@ -26,15 +26,66 @@ chapter41: dcterms:isPartOf book: .
 
 # disease labels Chapter41
 
+omim:311850 a ncit:C7057 ; rdfs:label "Phosphoribolsyl pyrophosphate synthetase 1 defects" .
+omim:300661 a ncit:C7057 ; rdfs:label "Phosphoribosyl pyrophosphate synthetase 1 superactivity" .
+omim:103050 a ncit:C7057 ; rdfs:label "Adenylosuccinate lyase deficiency" .
+omim:608688 a ncit:C7057 ; rdfs:label "AICAR transformylase/IMP cyclohydrolase deficiency" .
+omim:102770 a ncit:C7057 ; rdfs:label "Adenosine monophosphate deaminase deficiency" .
+omim:146690 a ncit:C7057 ; rdfs:label "Inosine monophosphate dehydrogenase deficiency" . 
+omim:608958 a ncit:C7057 ; rdfs:label "Adenosine deaminase deficiency " . 
+omim:613179 a ncit:C7067 ; rdfs:label "Purine nucleoside phosphorylase deficiency" .
 omim:278300 a ncit:C7057 ; rdfs:label "Xanthine dehydrogenase deficiency" .
-omim:603592 a ncit:C7057 ; rdfs:label "Xanthine dehydrogenase and aldehyde oxidase, combined deficiency" .
+omim:603592 a ncit:C7057 ; rdfs:label "Combined xanthine oxydase and aldehyde oxidase deficiency" .
+omim:102600 a ncit:C7057 ; rdfs:label "Adenine phosphoribosyl transferase deficiency" .
+omim:300322 a ncit:C7057 ; rdfs:label "Hypoxanthine guanine phosphoribolsyl transferase deficiency" . 
+
 
 #molecule-disease associations 
+wd:Q420633 a chebi:25367 ; rdfs:label "5-phosphoribosyl-1-pyrophosphate" .
+:assoc1 a association: ; refersTo: chapter41:, wd:Q420633, omim:311850 .
+:assoc2 a association: ; refersTo: chapter41:, wd:Q420633, omim:300661 .
 
-wd:Q15318 a chebi:25367 ; rdfs:label "Xanthine" .
-:assoc1 a association: ; refersTo: chapter41:, wd:Q15318, omim:278300 . 
-:assoc2 a association: ; refersTo: chapter41:, wd:Q15318, omim:603592 .
+wd:Q27139416 a chebi:25367 ; rdfs:label "succinyladenosine" .
+:assoc3 a association: ; refersTo: chapter41:, wd:Q27139416, omim:103050 .
 
-wd:Q410305 a chebi:25367 ; rdfs:label "Hypoxanthine" .
-:assoc3 a association: ; refersTo: chapter41:, wd:Q410305, omim:278300 .
-:assoc4 a association: ; refersTo: chapter41:, wd:Q410305, omim:603592 . 
+wd:Q3502778 a chebi:25367 ; rdfs:label "succinylaminoimidazole carboxamide riboside" .
+:assoc4 a association: ; refersTo: chapter41:, wd:Q3502778, omim:103050 . 
+
+wd:Q4671562 a chebi:25367 ; rdfs:label "AICA-riboside" . 
+:assoc5 a association: ; refersTo: chapter41:, wd:Q4671562, omim:608688 . 
+
+wd:Q409458 a chebi:25367 ; rdfs:label "creatine kinase" .
+:assoc6 a association: ; refersTo: chapter41:, wd:Q409458 , omim:102770 .
+
+wd:Q190012 a chebi:25367 ; rdfs:label "deoxyadenosine" .
+:assoc7 a association: ; refersTo: chapter41:, wd:Q190012, omim:608958 . 
+
+wd:Q422488 a chebi:25367 ; rdfs:label "2'-deoxyguanosine" . 
+:assoc8 a association: ; refersTo: chapter41:, wd:Q422488, omim:613179 . 
+
+wd:Q27071895 a chebi:25367 ; rdfs:label "2'-deoxyinosine" .
+:assoc9 a association: ; refersTo: chapter41:, wd:Q27071895, omim:613179 .
+
+wd:Q105522 a chebi:25367 ; rdfs:label "uric acid" . 
+:assoc10 a association: ; refersTo: chapter41:, wd:Q105522, omim:311850 . 
+:assoc11 a association: ; refersTo: chapter41:, wd:Q105522, omim:300661 .
+:assoc12 a association: ; refersTo: chapter41:, wd:Q105522, omim:103050 . 
+:assoc13 a association: ; refersTo: chapter41:, wd:Q105522, omim:613179 .
+:assoc14 a association: ; refersTo: chapter41:, wd:Q105522, omim:278300 .
+
+wd:Q50980 a chebi:25367 ; rdfs:label "xanthine" .
+:assoc15 a association: ; refersTo: chapter41:, wd:Q15318, omim:278300 . 
+:assoc16 a association: ; refersTo: chapter41:, wd:Q15318, omim:603592 .
+:assoc17 a association: ; refersTo: chapter41:, wd:Q15318, omim:300322 .
+
+wd:Q410305 a chebi:25367 ; rdfs:label "hypoxanthine" .
+:assoc18 a association: ; refersTo: chapter41:, wd:Q410305, omim:278300 .
+:assoc19 a association: ; refersTo: chapter41:, wd:Q410305, omim:603592 . 
+:assoc20 a association: ; refersTo: chapter41:, wd:Q410305, omim:300322 .
+:assoc21 a association: ; refersTo: chapter41:, wd:Q410305, omim:300661 . 
+
+wd:Q4596812 a chebi:25367 ; rdfs:label "2,8-dihydroxyadenine" .
+:assoc22 a association: ; refersTo: chapter41:, wd:Q4596812, omim:102600 . 
+
+wd:Q15277 a chebi:25367 ; rdfs:label "adenine" . 
+:assoc23 a association: ; refersTo: chapter41:, wd:Q15277, omim:102600 . 
