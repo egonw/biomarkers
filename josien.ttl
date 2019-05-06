@@ -278,7 +278,7 @@ omim:608688 a ncit:C7057 ; rdfs:label "AICAR transformylase/IMP cyclohydrolase d
 omim:102770 a ncit:C7057 ; rdfs:label "Adenosine monophosphate deaminase deficiency" .
 omim:146690 a ncit:C7057 ; rdfs:label "Inosine monophosphate dehydrogenase deficiency" . 
 omim:608958 a ncit:C7057 ; rdfs:label "Adenosine deaminase deficiency " . 
-omim:613179 a ncit:C7067 ; rdfs:label "Purine nucleoside phosphorylase deficiency" .
+omim:613179 a ncit:C7057 ; rdfs:label "Purine nucleoside phosphorylase deficiency" .
 omim:278300 a ncit:C7057 ; rdfs:label "Xanthine dehydrogenase deficiency" .
 omim:603592 a ncit:C7057 ; rdfs:label "Combined xanthine oxydase and aldehyde oxidase deficiency" .
 omim:102600 a ncit:C7057 ; rdfs:label "Adenine phosphoribosyl transferase deficiency" .
