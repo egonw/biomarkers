@@ -101,7 +101,7 @@ wd:Q2271580 a chebi:25367 ; rdfs:label "sepiapterin" .
 :assoc34 a association: ; refersTo: chapter1:, wd:Q2271580, umls:C0268468 .
 
 wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl acetate" .
-:assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
+:assoc35 a association: ; refersTo: chapter1:, wd:Q4637160, umls:C0268490 .
 
 
 # Disease labels Chapter11 (Lisa Held @lisaaheld)
@@ -147,9 +147,8 @@ chebi:17388  a chebi:25367 ; rdfs:label "P5C" .
 chebi:26271 a chebi:25367 ; rdfs:label "Proline" .
 :assoc48 a association: ; refersTo: chapter11:, chebi:26271 , omim:239510 .
 
-##TO DO: check this association in Blau!
-#Ensembl:ENSG00000162551 a chebi:25367 ; rdfs:label "Alkaline Phosphatase" .
-#:assoc49 a association: ; refersTo: chapter11:, Ensembl:ENSG00000162551 ,omim:241500 .
+wd:Q24769688 a chebi:25367 ; rdfs:label "Alkaline Phosphatase" .
+#:assoc49 a association: ; refersTo: chapter11:, wd:Q24769688, omim:241500 .
 
 
 # Disease labels chapter20 (Richard Devela @RichardD97)
