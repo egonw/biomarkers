@@ -13,7 +13,7 @@ you make your content in the pull request avaiable as CCZero too.
 
 Attribution to this data collection can, at this momoment, be made to this GitHub repository:
 
-    Willighagen, E.L., 2016, Biomarkers, GitHub, Available from https://github.com/egonw/biomarkers/
+    Landman, J., Slenter, D., Willighagen, E.L., 2019, Biomarkers, GitHub, Available from https://github.com/egonw/biomarkers/
 
 Additionally, a (future) data deposition will be made citable.
 
