@@ -459,3 +459,37 @@ disease	biomarkercount
 <http://identifiers.org/omim/601465>	1
 <http://identifiers.org/omim/300322>	1
 <http://identifiers.org/omim/300323>	1
+
+query results from query performed in discussion
+wikidataid	BiomarkerName	pathway
+<http://www.wikidata.org/entity/Q310919>	beta-alanine	<http://identifiers.org/wikipathways/WP4225_r104311>
+<http://www.wikidata.org/entity/Q10859719>	orotidine	<http://identifiers.org/wikipathways/WP4225_r104311>
+<http://www.wikidata.org/entity/Q182990>	uracil	<http://identifiers.org/wikipathways/WP4225_r104311>
+<http://www.wikidata.org/entity/Q3027885>	dihydrothymine	<http://identifiers.org/wikipathways/WP4225_r104311>
+<http://www.wikidata.org/entity/Q409340>	dihydrouracil	<http://identifiers.org/wikipathways/WP4225_r104311>
+<http://www.wikidata.org/entity/Q419140>	2-deoxyuridine	<http://identifiers.org/wikipathways/WP4225_r104311>
+<http://www.wikidata.org/entity/Q420633>	5-phosphoribosyl-1-pyrophosphate	<http://identifiers.org/wikipathways/WP4225_r104311>
+<http://www.wikidata.org/entity/Q422464>	thymidine	<http://identifiers.org/wikipathways/WP4225_r104311>
+<http://www.wikidata.org/entity/Q139857>	fumaric acid	<http://identifiers.org/wikipathways/WP4236_r104644>
+<http://www.wikidata.org/entity/Q239598>	 Methylmalonic acid	<http://identifiers.org/wikipathways/WP4236_r104644>
+<http://www.wikidata.org/entity/Q105522>	uric acid	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q139857>	fumaric acid	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q15277>	adenine	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q27071895>	2'-deoxyinosine	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q27139416>	succinyladenosine	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q3502778>	succinylaminoimidazole carboxamide riboside	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q410305>	hypoxanthine	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q420633>	5-phosphoribosyl-1-pyrophosphate	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q422488>	2'-deoxyguanosine	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q4596812>	2,8-dihydroxyadenine	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q4671562>	AICA-riboside	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q50980>	xanthine	<http://identifiers.org/wikipathways/WP4224_r104773>
+<http://www.wikidata.org/entity/Q170545>	phenylalanine	<http://identifiers.org/wikipathways/WP4156_r104403>
+<http://www.wikidata.org/entity/Q2271580>	sepiapterin	<http://identifiers.org/wikipathways/WP4156_r104403>
+<http://www.wikidata.org/entity/Q238532>	5-hydroxyindole acetic acid	<http://identifiers.org/wikipathways/WP4220_r104416>
+<http://www.wikidata.org/entity/Q238532>	5-hydroxyindole acetic acid	<http://identifiers.org/wikipathways/WP4156_r104403>
+<http://www.wikidata.org/entity/Q26261687>	primapterin	<http://identifiers.org/wikipathways/WP4156_r104403>
+<http://www.wikidata.org/entity/Q5276421>	7,8-dihydrobiopterin	<http://identifiers.org/wikipathways/WP4156_r104403>
+<http://www.wikidata.org/entity/Q903566>	homovanillic acid	<http://identifiers.org/wikipathways/WP4220_r104416>
+<http://www.wikidata.org/entity/Q903566>	homovanillic acid	<http://identifiers.org/wikipathways/WP4156_r104403>
+<http://www.wikidata.org/entity/Q908292>	neopterin	<http://identifiers.org/wikipathways/WP4156_r104403>
