@@ -1,4 +1,5 @@
-Results first SPARQL query M&M section 2.4.1
+**Results first SPARQL query M&M section 2.4.1
+
 association	disease	diseasename
 <http://egonw.github.com/biomarkers/blau/assoc1>	<http://bio2rdf.org/omim:233910>	GTP cyclohydrolase deficiency
 <http://egonw.github.com/biomarkers/blau/assoc10>	<http://bio2rdf.org/omim:264070>	pterin-4a-carbinoamine dehydratase deficiency
