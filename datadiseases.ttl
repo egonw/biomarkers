@@ -1,0 +1,276 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix omim: <http://identifiers.org/omim/> .
+@prefix associatedWith: <http://semanticscience.org/resource/SIO_001403> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+<http://rdf.wikipathways.org/Pathway/WP4156_r104403/WP/Interaction/idb61b60ed> associatedWith: omim:261600 .
+omim:261600 a obo:DOID_4 ; rdfs:label "phenylalanine-4-hydroxylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4156_r104403/WP/Interaction/idaf49de82> associatedWith: omim:264070 .
+omim:264070 a obo:DOID_4 ; rdfs:label "pterin-4a-carbinolamine dehydratasen deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4156_r104403/WP/Interaction/ida9b8e551> associatedWith: omim:191290 .
+omim:191290 a obo:DOID_4 ; rdfs:label "tyrosine hydroxylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4156_r104403/WP/Interaction/id94aadbf8> associatedWith: omim:233910 .
+omim:233910 a obo:DOID_4 ; rdfs:label "GTP cyclohydrolase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4156_r104403/WP/Interaction/id94aadbf8> associatedWith: omim:128230 .
+omim:128230 a obo:DOID_4 ; rdfs:label "Dopa-responsive dystonia" .
+<http://rdf.wikipathways.org/Pathway/WP4156_r104403/WP/Interaction/idc7ad578> associatedWith: omim:261630 .
+omim:261630 a obo:DOID_4 ; rdfs:label "dihydrofolate reductase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4156_r104403/WP/Interaction/ide7cff94d> associatedWith: omim:261630 .
+omim:261630 a obo:DOID_4 ; rdfs:label "dihydropteridine reductase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4156_r104403/WP/Interaction/id68d7effb> associatedWith: omim:606843 .
+omim:606843 a obo:DOID_4 ; rdfs:label "aromatic l-amino acid decarboxylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4156_r104403/WP/Interaction/idd7741aaf> associatedWith: omim:261640 .
+omim:261640 a obo:DOID_4 ; rdfs:label "6-pyruvoyl-tetrahydropterin synthase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4156_r104403/WP/Interaction/id218a73f5> associatedWith: omim:261600 .
+omim:261600 a obo:DOID_4 ; rdfs:label "phenylalanine-4-hydroxylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4507_r104389/WP/Interaction/ida829bffd> associatedWith: omim:272300 .
+omim:272300 a obo:DOID_4 ; rdfs:label "Sulphite oxidase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4507_r104389/WP/Interaction/id6823823e> associatedWith: omim:603707 .
+omim:603707 a obo:DOID_4 ; rdfs:label "MoCD type A" .
+<http://rdf.wikipathways.org/Pathway/WP4507_r104389/WP/Interaction/a0518> associatedWith: omim:603930 .
+omim:603930 a obo:DOID_4 ; rdfs:label "MoCD type C" .
+<http://rdf.wikipathways.org/Pathway/WP4507_r104389/WP/Interaction/b58e8> associatedWith: omim:603930 .
+omim:603930 a obo:DOID_4 ; rdfs:label "MoCD type C" .
+<http://rdf.wikipathways.org/Pathway/WP4507_r104389/WP/Interaction/c73f2> associatedWith: omim:603708 .
+omim:603708 a obo:DOID_4 ; rdfs:label "MoCD type B" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/id6c5646af> associatedWith: omim:201810 .
+omim:201810 a obo:DOID_4 ; rdfs:label "3-beta-HSD type II deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/id1104ad95> associatedWith: omim:613161 .
+omim:613161 a obo:DOID_4 ; rdfs:label "Beta-ureidopropionase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4228_r104423/WP/Interaction/id6be8b83a> associatedWith: omim:610090 .
+omim:610090 a obo:DOID_4 ; rdfs:label "PNPO deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4228_r104423/WP/Interaction/id66d87941> associatedWith: omim:610090 .
+omim:610090 a obo:DOID_4 ; rdfs:label "PNPO deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4236_r104644/WP/Interaction/c7ee2> associatedWith: omim:2030740 .
+omim:2030740 a obo:DOID_4 ; rdfs:label "2-oxoglutaric aciduria" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/id80f314dd> associatedWith: omim:609560 .
+omim:609560 a obo:DOID_4 ; rdfs:label "Thymidine kinase 2 deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4228_r104423/WP/Interaction/id79e62a61> associatedWith: omim:239510 .
+omim:239510 a obo:DOID_4 ; rdfs:label "Hyperprolinaemia type II" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/id3cf22b97> associatedWith: omim:222748 .
+omim:222748 a obo:DOID_4 ; rdfs:label "Dihydropyrimidinase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/id1104ad95> associatedWith: omim:210100 .
+omim:210100 a obo:DOID_4 ; rdfs:label "Beta-aminoisobutyrate-pyruvate  Transaminase Deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4236_r104644/WP/Interaction/e4d52> associatedWith: omim:136850 .
+omim:136850 a obo:DOID_4 ; rdfs:label "Fumarase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4545_r104248/WP/Interaction/a7285> associatedWith: omim:213700 .
+omim:213700 a obo:DOID_4 ; rdfs:label "CTX" .
+<http://rdf.wikipathways.org/Pathway/WP4545_r104248/WP/Interaction/a7a96> associatedWith: omim:213700 .
+omim:213700 a obo:DOID_4 ; rdfs:label "CTX" .
+<http://rdf.wikipathways.org/Pathway/WP4153_r104405/WP/Interaction/id829e207b> associatedWith: omim:245200 .
+omim:245200 a obo:DOID_4 ; rdfs:label "Krabbe" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/id2be8db51> associatedWith: omim:266120 .
+omim:266120 a obo:DOID_4 ; rdfs:label "Pyrimidine 5'-nucleotidase I  deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/id1c149b88> associatedWith: omim:274270 .
+omim:274270 a obo:DOID_4 ; rdfs:label "Dihydropyrimidine dehydrogenase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4571_r104204/WP/Interaction/idc49bc7c8> associatedWith: omim:237300 .
+omim:237300 a obo:DOID_4 ; rdfs:label "Carbamoylphosphate synthetase I deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4271_r104475/WP/Interaction/id9e2d7192> associatedWith: omim:251100 .
+omim:251100 a obo:DOID_4 ; rdfs:label "Adenosylcobalamin Synthesis Defect cblA" .
+<http://rdf.wikipathways.org/Pathway/WP4571_r104204/WP/Interaction/id781f4666> associatedWith: omim:237310 .
+omim:237310 a obo:DOID_4 ; rdfs:label "N-acetylglutamate synthase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4271_r104475/WP/Interaction/ida03b3e90> associatedWith: omim:236270 .
+omim:236270 a obo:DOID_4 ; rdfs:label "Methionine Synthase Deficiency cblE" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/id20f5d69f> associatedWith: omim:274270 .
+omim:274270 a obo:DOID_4 ; rdfs:label "Dihydropyrimidine dehydrogenase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4571_r104204/WP/Interaction/id5068e> associatedWith: omim:215700 .
+omim:215700 a obo:DOID_4 ; rdfs:label "Citrullinemia type I " .
+<http://rdf.wikipathways.org/Pathway/WP4571_r104204/WP/Interaction/idf5d3306f> associatedWith: omim:207900 .
+omim:207900 a obo:DOID_4 ; rdfs:label "Argininosuccinic aciduria " .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id1add015f> associatedWith: omim:102770 .
+omim:102770 a obo:DOID_4 ; rdfs:label "AMP deaminase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/iddb51756e> associatedWith: omim:201810 .
+omim:201810 a obo:DOID_4 ; rdfs:label "3-beta-HSD type II deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/id637bafd1> associatedWith: omim:613546 .
+omim:613546 a obo:DOID_4 ; rdfs:label "Aromatase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id35a2bb69> associatedWith: omim:604712 .
+omim:604712 a obo:DOID_4 ; rdfs:label "Mitochondrial ribonucleotide  reductase subunit 2 deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id1c909241> associatedWith: omim:601465 .
+omim:601465 a obo:DOID_4 ; rdfs:label "Deoxyguanosine kinase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/id69a11954> associatedWith: omim:124080 .
+omim:124080 a obo:DOID_4 ; rdfs:label "Corticosterone methyl oxidase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4259_r104641/WP/Interaction/c6e2a> associatedWith: omim:604197 .
+omim:604197 a obo:DOID_4 ; rdfs:label "MTHFS deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id78d7176b> associatedWith: omim:146690 .
+omim:146690 a obo:DOID_4 ; rdfs:label "Inosine triphosphatase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/idafa86019> associatedWith: omim:102700 .
+omim:102700 a obo:DOID_4 ; rdfs:label "Adenosine deaminase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/idb880c49> associatedWith: omim:124080 .
+omim:124080 a obo:DOID_4 ; rdfs:label "Corticosterone methyl oxidase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id2eb2cadd> associatedWith: omim:278300 .
+omim:278300 a obo:DOID_4 ; rdfs:label "Xanthinuria, Type I" .
+<http://rdf.wikipathways.org/Pathway/WP4271_r104475/WP/Interaction/idbc82c43> associatedWith: omim:250940 .
+omim:250940 a obo:DOID_4 ; rdfs:label "Methionine Synthase Deficiency cblG" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id905b1edd> associatedWith: omim:613179 .
+omim:613179 a obo:DOID_4 ; rdfs:label "Purine nucleoside phosphorylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4518_r104483/WP/Interaction/dc7ef> associatedWith: omim:260005 .
+omim:260005 a obo:DOID_4 ; rdfs:label "Oxoprolinuria" .
+<http://rdf.wikipathways.org/Pathway/WP4518_r104483/WP/Interaction/c6654> associatedWith: omim:230450 .
+omim:230450 a obo:DOID_4 ; rdfs:label "Gamma-Glutamylcysteine Synthetase Deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id88da3202> associatedWith: omim:613179 .
+omim:613179 a obo:DOID_4 ; rdfs:label "Purine nucleoside phosphorylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/idbcc14ba> associatedWith: omim:237400 .
+omim:237400 a obo:DOID_4 ; rdfs:label "Beta-alanine Alpha-ketoglutarate Transaminase Deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/ide5c0d2f2> associatedWith: omim:201810 .
+omim:201810 a obo:DOID_4 ; rdfs:label "3-beta-HSD type II deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4571_r104204/WP/Interaction/id9c1c7a1> associatedWith: omim:311250 .
+omim:311250 a obo:DOID_4 ; rdfs:label "Ornithine transcarbamylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4518_r104483/WP/Interaction/a21ab> associatedWith: omim:231950 .
+omim:231950 a obo:DOID_4 ; rdfs:label "Glutathionuria" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/id76eef3b9> associatedWith: omim:264300 .
+omim:264300 a obo:DOID_4 ; rdfs:label "17-beta-HSD deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/idf478372c> associatedWith: omim:218030 .
+omim:218030 a obo:DOID_4 ; rdfs:label "Cortisone reductase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/ide30433f6> associatedWith: omim:222748 .
+omim:222748 a obo:DOID_4 ; rdfs:label "Dihydropyrimidinase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id7317e303> associatedWith: omim:103050 .
+omim:103050 a obo:DOID_4 ; rdfs:label "Adenyl- succinate lyase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4259_r104641/WP/Interaction/cc2a8_1> associatedWith: omim:172460 .
+omim:172460 a obo:DOID_4 ; rdfs:label "MTHFD1 deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4259_r104641/WP/Interaction/cc2a8_2> associatedWith: omim:172460 .
+omim:172460 a obo:DOID_4 ; rdfs:label "MTHFD1 deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/idc580739c> associatedWith: omim:601465 .
+omim:601465 a obo:DOID_4 ; rdfs:label "Thiopurine S-methyltransferase  deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/idfdc47524> associatedWith: omim:103050 .
+omim:103050 a obo:DOID_4 ; rdfs:label "Adenyl- succinate lyase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/idb2a2b2f7> associatedWith: omim:603041 .
+omim:603041 a obo:DOID_4 ; rdfs:label "Thymidine phosphorylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/iddb8bfb4d> associatedWith: omim:266120 .
+omim:266120 a obo:DOID_4 ; rdfs:label "Pyrimidine 5'-nucleotidase I deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id94f10291> associatedWith: omim:613179 .
+omim:613179 a obo:DOID_4 ; rdfs:label "Purine nucleoside phosphorylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4571_r104204/WP/Interaction/ide04e3afd> associatedWith: omim:207800 .
+omim:207800 a obo:DOID_4 ; rdfs:label "Arginase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4259_r104641/WP/Interaction/bd803> associatedWith: omim:236250 .
+omim:236250 a obo:DOID_4 ; rdfs:label "MTHFR deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4259_r104641/WP/Interaction/bd100> associatedWith: omim:126060 .
+omim:126060 a obo:DOID_4 ; rdfs:label "DHFR deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/idb1b54820> associatedWith: omim:278300 .
+omim:278300 a obo:DOID_4 ; rdfs:label "Xanthinuria, Type I" .
+<http://rdf.wikipathways.org/Pathway/WP4519_r104246/WP/Interaction/id270070ac> associatedWith: omim:600721 .
+omim:600721 a obo:DOID_4 ; rdfs:label "D-2-hydroxyglutaric aciduria type I  " .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id653f6516> associatedWith: omim:102700 .
+omim:102700 a obo:DOID_4 ; rdfs:label "Adenosine  deaminase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/idff2c4dd1> associatedWith: omim:300322 .
+omim:300322 a obo:DOID_4 ; rdfs:label "Lesch-Nyhan syndrome; LNS" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/id3ce16c65> associatedWith: omim:202010 .
+omim:202010 a obo:DOID_4 ; rdfs:label "11-beta-hydroxylase type I deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/id72757710> associatedWith: omim:264600 .
+omim:264600 a obo:DOID_4 ; rdfs:label "5-alpha-reductase type II deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/idf7ba2d00> associatedWith: omim:218030 .
+omim:218030 a obo:DOID_4 ; rdfs:label "Apparent mineralocorticoid excess" .
+<http://rdf.wikipathways.org/Pathway/WP4518_r104483/WP/Interaction/f3e08> associatedWith: omim:266130 .
+omim:266130 a obo:DOID_4 ; rdfs:label "Glutathione Synthetase Deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/ide682eba8> associatedWith: omim:608688 .
+omim:608688 a obo:DOID_4 ; rdfs:label "AICAr transformylase/ IMP cyclohydrolase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4523_r104251/WP/Interaction/id9f130f49> associatedWith: omim:202010 .
+omim:202010 a obo:DOID_4 ; rdfs:label "11-beta-hydroxylase type I deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/idae3778fb> associatedWith: omim:603041 .
+omim:603041 a obo:DOID_4 ; rdfs:label "Thymidine phosphorylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4595_r104400/WP/Interaction/idf5d3306f> associatedWith: omim:207900 .
+omim:207900 a obo:DOID_4 ; rdfs:label "Arginino- succinic aciduria " .
+<http://rdf.wikipathways.org/Pathway/WP4519_r104246/WP/Interaction/a2d03> associatedWith: omim:271900 .
+omim:271900 a obo:DOID_4 ; rdfs:label "Canavan Disease" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id488c9916> associatedWith: omim:613179 .
+omim:613179 a obo:DOID_4 ; rdfs:label "Purine nucleoside phosphorylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4595_r104400/WP/Interaction/id8be50834> associatedWith: omim:610015 .
+omim:610015 a obo:DOID_4 ; rdfs:label "Glutamine synthetase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id8d646469> associatedWith: omim:608688 .
+omim:608688 a obo:DOID_4 ; rdfs:label "AICAr transformylase/ IMP cyclohydrolase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id4effd6ce> associatedWith: omim:146690 .
+omim:146690 a obo:DOID_4 ; rdfs:label "IMP dehydrogenase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id455e3501> associatedWith: omim:614723 .
+omim:614723 a obo:DOID_4 ; rdfs:label "Adenine phospho- ribosyltransferase  deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4225_r104311/WP/Interaction/idbcc14ba> associatedWith: omim:613161 .
+omim:613161 a obo:DOID_4 ; rdfs:label "Beta-ureidopropionase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4595_r104400/WP/Interaction/id781f4666> associatedWith: omim:237310 .
+omim:237310 a obo:DOID_4 ; rdfs:label "N-acetylglutamate synthase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/idccc74c96> associatedWith: omim:300661 .
+omim:300661 a obo:DOID_4 ; rdfs:label "Phosphoribosylpyrophosphate  synthetase superactivity" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/idd1857fd> associatedWith: omim:613179 .
+omim:613179 a obo:DOID_4 ; rdfs:label "Purine nucleoside phosphorylase  deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4519_r104246/WP/Interaction/e049c> associatedWith: omim:231670  .
+omim:231670  a obo:DOID_4 ; rdfs:label "Glutaric aciduria type I " .
+<http://rdf.wikipathways.org/Pathway/WP4545_r104248/WP/Interaction/c4f5a> associatedWith: omim:201810 .
+omim:201810 a obo:DOID_4 ; rdfs:label "HSDB" .
+<http://rdf.wikipathways.org/Pathway/WP4595_r104400/WP/Interaction/id9c1c7a1> associatedWith: omim:311250 .
+omim:311250 a obo:DOID_4 ; rdfs:label "Ornithine transcarbamylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4595_r104400/WP/Interaction/id5068e> associatedWith: omim:215700 .
+omim:215700 a obo:DOID_4 ; rdfs:label "Citrullinemia  type I " .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/ce68f> associatedWith: omim:607143 .
+omim:607143 a obo:DOID_4 ; rdfs:label "Mannosyltransferase-8- deficiency-CDG-Ig (CDG-1g)" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/e8e76> associatedWith: omim:603147 .
+omim:603147 a obo:DOID_4 ; rdfs:label "Glucosyltransferase-1- deficiency-CDG-Ic (CDG1c)" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/ed165> associatedWith: omim:608540 .
+omim:608540 a obo:DOID_4 ; rdfs:label "Mannosyltransferase- 1-deficiency-CDG-Ik " .
+<http://rdf.wikipathways.org/Pathway/WP4524_r104252/WP/Interaction/id90bf9399> associatedWith: omim:264600 .
+omim:264600 a obo:DOID_4 ; rdfs:label "5-alpha-reductase type II deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4506_r104393/WP/Interaction/c9c1d> associatedWith: omim:203500 .
+omim:203500 a obo:DOID_4 ; rdfs:label "Alkaptonuria" .
+<http://rdf.wikipathways.org/Pathway/WP4519_r104246/WP/Interaction/c738f> associatedWith: omim:236792 .
+omim:236792 a obo:DOID_4 ; rdfs:label "L-2-hydrxoglutaric aciduria  " .
+<http://rdf.wikipathways.org/Pathway/WP4519_r104246/WP/Interaction/c09ec> associatedWith: omim:231670  .
+omim:231670  a obo:DOID_4 ; rdfs:label "Glutaric aciduria type I " .
+<http://rdf.wikipathways.org/Pathway/WP4524_r104252/WP/Interaction/id8edc92cf> associatedWith: omim:264300 .
+omim:264300 a obo:DOID_4 ; rdfs:label "17-beta-hydroxysteroid dehydrogenase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/id732b084> associatedWith: omim:608093 .
+omim:608093 a obo:DOID_4 ; rdfs:label "UDP-GlcNac:Dol-P-GlcNac- P-transferase deficiency - Ij " .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/id17ad63cf> associatedWith: omim:608093 .
+omim:608093 a obo:DOID_4 ; rdfs:label "UDP-GlcNac:Dol-P-GlcNac- P-transferase deficiency - Ij " .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/d7992> associatedWith: omim:212066 .
+omim:212066 a obo:DOID_4 ; rdfs:label "N-acetylglucosaminyltransferase 2 deficiency (CDG-IIa)" .
+<http://rdf.wikipathways.org/Pathway/WP4506_r104393/WP/Interaction/fba06> associatedWith: omim:276710 .
+omim:276710 a obo:DOID_4 ; rdfs:label "Tyrosinaemia Type III" .
+<http://rdf.wikipathways.org/Pathway/WP4506_r104393/WP/Interaction/id4da77879> associatedWith: omim:140350 .
+omim:140350 a obo:DOID_4 ; rdfs:label "Hawkinsinuria (HAWK)" .
+<http://rdf.wikipathways.org/Pathway/WP4524_r104252/WP/Interaction/ide5c0716e> associatedWith: omim:264300 .
+omim:264300 a obo:DOID_4 ; rdfs:label "17-beta-hydroxysteroid dehydrogenase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/id6f2bfa37> associatedWith: omim:613179 .
+omim:613179 a obo:DOID_4 ; rdfs:label "Purine nucleoside phosphorylase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/bf513> associatedWith: omim:607906 .
+omim:607906 a obo:DOID_4 ; rdfs:label "Mannosyltransferase- 2-deficiency-CDG-Ii" .
+<http://rdf.wikipathways.org/Pathway/WP4595_r104400/WP/Interaction/id275adc5d> associatedWith: omim:219150 .
+omim:219150 a obo:DOID_4 ; rdfs:label "Pyrroline- 5-carboxylate  synthase  deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/ce341> associatedWith: omim:610768 .
+omim:610768 a obo:DOID_4 ; rdfs:label "Dolichol kinase deficiency - CDG - Im" .
+<http://rdf.wikipathways.org/Pathway/WP4524_r104252/WP/Interaction/id72640af> associatedWith: omim:614279 .
+omim:614279 a obo:DOID_4 ; rdfs:label "46,XY sex reversal 8" .
+<http://rdf.wikipathways.org/Pathway/WP4220_r104416/WP/Interaction/id4a950c2d> associatedWith: omim:608643 .
+omim:608643 a obo:DOID_4 ; rdfs:label "Aromatic L-Amino Acid Decarboxylase Deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4220_r104416/WP/Interaction/id290ed1b4> associatedWith: omim:307850 .
+omim:307850 a obo:DOID_4 ; rdfs:label "Monoamine Oxidase A Deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4220_r104416/WP/Interaction/id289d5a14> associatedWith: omim:608643 .
+omim:608643 a obo:DOID_4 ; rdfs:label "Aromatic L-Amino Acid Decarboxylase Deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4220_r104416/WP/Interaction/idd238ee1f> associatedWith: omim:223360 .
+omim:223360 a obo:DOID_4 ; rdfs:label "Dopamine Beta-  Hydroxylase Deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4220_r104416/WP/Interaction/id1429a5c0> associatedWith: omim:307850 .
+omim:307850 a obo:DOID_4 ; rdfs:label "Monoamine Oxidase A Deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4220_r104416/WP/Interaction/id129fe2dd> associatedWith: omim:191290 .
+omim:191290 a obo:DOID_4 ; rdfs:label "Tyrosine Hydroxylase Deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4524_r104252/WP/Interaction/id4389ef0a> associatedWith: omim:614279 .
+omim:614279 a obo:DOID_4 ; rdfs:label "3-alpha-Hydroxysteroid dehydrogenase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4595_r104400/WP/Interaction/ide04e3afd> associatedWith: omim:207800 .
+omim:207800 a obo:DOID_4 ; rdfs:label "Arginase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/fd073> associatedWith: omim:606056 .
+omim:606056 a obo:DOID_4 ; rdfs:label "Glucosidase-1- deficiency- CDG-IIb (CDG-2b)" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/c9982> associatedWith: omim:602579 .
+omim:602579 a obo:DOID_4 ; rdfs:label "Phosphomannose-isomerase- deficiency- CDG-Ib (CDG-1b)" .
+<http://rdf.wikipathways.org/Pathway/WP4524_r104252/WP/Interaction/idd7e06f70> associatedWith: omim:614279 .
+omim:614279 a obo:DOID_4 ; rdfs:label "3-alpha-Hydroxysteroid dehydrogenase deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/id325af368> associatedWith: omim:601110 .
+omim:601110 a obo:DOID_4 ; rdfs:label "Mannosyltransferase6 deficiency (CDG-Ic)" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/idccc74c96> associatedWith: omim:311850 .
+omim:311850 a obo:DOID_4 ; rdfs:label "Phosphoribosylpyrophosphate synthetase 1 defects" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/idce0beeb9> associatedWith: omim:300322 .
+omim:300322 a obo:DOID_4 ; rdfs:label "Lesch-Nyhan Syndrome" .
+<http://rdf.wikipathways.org/Pathway/WP4224_r104773/WP/Interaction/idce0beeb9> associatedWith: omim:300323 .
+omim:300323 a obo:DOID_4 ; rdfs:label "Kelley-Seegmiller Syndrome" .
+<http://rdf.wikipathways.org/Pathway/WP4595_r104400/WP/Interaction/idc49bc7c8> associatedWith: omim:237300 .
+omim:237300 a obo:DOID_4 ; rdfs:label "Carbamoyl- phosphate synthetase I deficiency" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/ba20c> associatedWith: omim:608104 .
+omim:608104 a obo:DOID_4 ; rdfs:label "Glucosyltransferase 2 deficiency (CDG-Ih)" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/a44ed> associatedWith: omim:212065 .
+omim:212065 a obo:DOID_4 ; rdfs:label "Phosphomannomutase-2- deficiency- CDG-Ia (CDG-1a)" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/a3c2a> associatedWith: omim:608776 .
+omim:608776 a obo:DOID_4 ; rdfs:label "Mannosyltransferase 7-9 deficiency (CDG-II)" .
+<http://rdf.wikipathways.org/Pathway/WP4521_r104484/WP/Interaction/bef32> associatedWith: omim:612379 .
+omim:612379 a obo:DOID_4 ; rdfs:label "Steroid 5 alpha-reductase 2 deficiency" .

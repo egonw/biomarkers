@@ -1,0 +1,334 @@
+@prefix : <http://egonw.github.com/biomarkers/blau/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix umls: <http://bioportal.bioontology.org/ontologies/umls/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix omim: <http://bio2rdf.org/omim:> .
+@prefix doi: <http://dx.doi.org/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> .
+@prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix wp: <http://vocabularies.wikipathways.org/wp#> .
+
+@prefix association: <http://semanticscience.org/resource/SIO_000993> .
+@prefix refersTo: <http://semanticscience.or/resource/SIO_000628> .
+
+# source: Blau, Duran, et al.
+
+@prefix book: <http://dx.doi.org/10.1007/978-3-642-40337-8> .
+@prefix chapter1: <http://dx.doi.org/10.1007/978-3-642-40337-8_1> .
+@prefix chapter11: <http://dx.doi.org/10.1007/978-3-642-40337-8_11> .
+@prefix chapter20: <http://dx.doi.org/10.1007/978-3-642-40337-8_20> .
+@prefix chapter31: <http://dx.doi.org/10.1007/978-3-642-40337-8_31> .
+@prefix chapter41: <http://dx.doi.org/10.1007/978-3-642-40337-8_41> .
+
+:Blau a void:Dataset ; cito:citesAsDataSource book: .
+chapter1: dcterms:isPartOf book: .
+chapter11: dcterms:isPartOf book: .
+chapter20: dcterms:isPartOf book: .
+chapter31: dcterms:isPartOf book: .
+chapter41: dcterms:isPartOf book: .
+
+# article sources:
+@prefix article: <https://www.ncbi.nlm.nih.gov/pubmed/> .
+
+# disease labels Chapter1 @Egon Willighagen
+
+omim:233910 a obo:DOID_4 ; rdfs:label "GTP cyclohydrolase deficiency" .
+omim:261600 a obo:DOID_4 ; rdfs:label "phenylalanine hydroxylase deficiency" .
+omim:261640 a obo:DOID_4 ; rdfs:label "6-pyruvoyl-tetrahydropterin synthase deficiency" .
+omim:261630 a obo:DOID_4 ; rdfs:label "dihydropteridine reductase deficiency" .
+omim:264070 a obo:DOID_4 ; rdfs:label "pterin-4a-carbinoamine dehydratase deficiency" .
+omim:128230 a obo:DOID_4 ; rdfs:label "dopa-responsive dystonia" .
+omim:612716 a obo:DOID_4 ; rdfs:label "sepiapterin reductase deficiency" .
+umls:C0268490 a obo:DOID_4 ; rdfs:label "tyrosinaemia, type I" .
+
+# molecule-disease associations @Egon Willighagen
+
+wd:Q408256 a chebi:25367 ; rdfs:label "biopterin" .
+:assoc1 a association: ; refersTo: chapter1:, wd:Q408256, omim:233910 .
+:assoc2 a association: ; refersTo: chapter1:, wd:Q408256, omim:261630 .
+:assoc3 a association: ; refersTo: chapter1:, wd:Q408256, omim:261640 .
+:assoc4 a association: ; refersTo: chapter1:, wd:Q408256, omim:128230 .
+:assoc5 a association: ; refersTo: chapter1:, wd:Q408256, omim:612716 .
+
+wd:Q170545 a chebi:25367 ; rdfs:label "phenylalanine" .
+:assoc6  a association: ; refersTo: chapter1:, wd:Q170545, omim:233910 .
+:assoc7  a association: ; refersTo: chapter1:, wd:Q170545, omim:261600 .
+:assoc8  a association: ; refersTo: chapter1:, wd:Q170545, omim:261640 .
+:assoc9  a association: ; refersTo: chapter1:, wd:Q170545, omim:261630 .
+:assoc10 a association: ; refersTo: chapter1:, wd:Q170545, omim:264070 .
+
+wd:Q908292 a chebi:25367 ; rdfs:label "neopterin" .
+:assoc11 a association: ; refersTo: chapter1:, wd:Q908292, omim:233910 .
+:assoc12 a association: ; refersTo: chapter1:, wd:Q908292, omim:261640 .
+:assoc13 a association: ; refersTo: chapter1:, wd:Q908292, omim:264070 .
+:assoc14 a association: ; refersTo: chapter1:, wd:Q908292, omim:128230.
+
+wd:Q238532 a chebi:25367 ; rdfs:label "5-hydroxyindole acetic acid" .
+:assoc15 a association: ; refersTo: chapter1:, wd:Q238532, omim:233910 .
+:assoc16 a association: ; refersTo: chapter1:, wd:Q238532, omim:261600 .
+:assoc17 a association: ; refersTo: chapter1:, wd:Q238532, omim:261640 .
+:assoc18 a association: ; refersTo: chapter1:, wd:Q238532, omim:261630 .
+:assoc19 a association: ; refersTo: chapter1:, wd:Q238532, omim:128230 .
+:assoc20 a association: ; refersTo: chapter1:, wd:Q238532, omim:612716 .
+
+wd:Q903566 a chebi:25367 ; rdfs:label "homovanillic acid" .
+:assoc21 a association: ; refersTo: chapter1:, wd:Q903566, omim:233910 .
+:assoc22 a association: ; refersTo: chapter1:, wd:Q903566, omim:261600 .
+:assoc23 a association: ; refersTo: chapter1:, wd:Q903566, omim:261630 .
+:assoc24 a association: ; refersTo: chapter1:, wd:Q903566, omim:261640 .
+:assoc25 a association: ; refersTo: chapter1:, wd:Q903566, omim:128230 .
+:assoc26 a association: ; refersTo: chapter1:, wd:Q903566, omim:612716 .
+
+wd:Q425030 a chebi:25367 ; rdfs:label "phenylpyruvic acid" .
+:assoc27 a association: ; refersTo: chapter1:, wd:Q425030, omim:261600 .
+
+wd:Q192191 a chebi:25367 ; rdfs:label "prolactin" .
+:assoc28 a association: ; refersTo: chapter1:, wd:Q192191, omim:261640 .
+:assoc29 a association: ; refersTo: chapter1:, wd:Q192191, omim:261630 .
+:assoc30 a association: ; refersTo: chapter1:, wd:Q192191, omim:612716 .
+
+wd:Q5276421 a chebi:25367 ; rdfs:label "7,8-dihydrobiopterin" .
+:assoc31 a association: ; refersTo: chapter1:, wd:Q5276421, omim:261630 .
+:assoc32 a association: ; refersTo: chapter1:, wd:Q5276421, omim:612716 .
+
+wd:Q26261687 a chebi:25367 ; rdfs:label "primapterin" .
+:assoc33 a association: ; refersTo: chapter1:, wd:Q26261687, omim:264070 .
+
+wd:Q2271580 a chebi:25367 ; rdfs:label "sepiapterin" .
+:assoc34 a association: ; refersTo: chapter1:, wd:Q2271580, omim:612716 .
+
+wd:Q4637160 a chebi:25367 ; rdfs:label "4-hydroxyphenyl acetate" .
+:assoc35 a association: ; refersTo: chapter1:, wd:Q4637160 , umls:C0268490 .
+
+
+# Disease labels Chapter11 (Lisa Held @lisaaheld)
+omim:266100 a obo:DOID_4 ; rdfs:label "Pyridoxine dependent epilepsy" .
+omim:610090 a obo:DOID_4 ; rdfs:label "Pyridox(am)ine 5'-phosphate oxidase deficiency" .
+omim:239510 a obo:DOID_4 ; rdfs:label "Hyperprolinaemia, type II" .
+omim:241500 a obo:DOID_4 ; rdfs:label "Congenital Hypophosphatasia" .
+
+# Molecule-disease associations (Lisa Held @lisaaheld)
+
+chebi:18405 a chebi:25367 ; rdfs:label "Pyridoxal-P" .
+:assoc36 a association: ; refersTo: chapter11:, chebi:18405 , omim:266100 .
+:assoc37 a association: ; refersTo: chapter11:, chebi:18405 , omim:610090 .
+:assoc38 a association: ; refersTo: chapter11:, chebi:18405 , omim:241500 .
+
+chebi:15365 a chebi:25367 ; rdfs:label "ASA" .
+:assoc39 a association: ; refersTo: chapter11:, chebi:15365 , omim:266100 .
+
+chebi:17964 a chebi:25367 ; rdfs:label "pipecolic acid" .
+:assoc40 a association: ; refersTo: chapter11:, chebi:17964 , omim:266100 .
+
+chebi:1582 a chebi:25367 ; rdfs:label "3-methoxytyrosine" .
+:assoc41 a association: ; refersTo: chapter11:, chebi:1582 , omim:610090 .
+
+chebi:27823 a chebi:25367 ; rdfs:label "5-Hydroxyindolacetic acid" .
+:assoc42 a association: ; refersTo: chapter11:, chebi:27823 , omim:610090 .
+
+chebi:545959 a chebi:25367 ; rdfs:label "homovanillic acid" .
+:assoc43 a association: ; refersTo: chapter11:, chebi:545959 , omim:610090 .
+
+chebi:26986 a chebi:25367 ; rdfs:label "Threonine" .
+:assoc44 a association: ; refersTo: chapter11:, chebi:26986 , omim:610090 .
+
+chebi:86956 a chebi:25367 ; rdfs:label "Vanillin Acetic acid" .
+:assoc45 a association: ; refersTo: chapter11:, chebi:86956 , omim:610090 .
+
+chebi:18095 a chebi:25367 ; rdfs:label "Hydroxyproline" .
+:assoc46 a association: ; refersTo: chapter11:, chebi:18095 , omim:239510 .
+
+chebi:17388  a chebi:25367 ; rdfs:label "P5C" .
+:assoc47 a association: ; refersTo: chapter11:, chebi:17388  , omim:239510 .
+
+chebi:26271 a chebi:25367 ; rdfs:label "Proline" .
+:assoc48 a association: ; refersTo: chapter11:, chebi:26271 , omim:239510 .
+
+wd:Q24769688 a chebi:25367 ; rdfs:label "Alkaline Phosphatase" .
+:assoc49 a association: ; refersTo: chapter11:, wd:Q24769688, omim:241500 .
+
+# Disease labels chapter20 (Richard Devela @RichardD97)
+omim:203740 a obo:DOID_4 ; rdfs:label "2-oxoglutaric aciduria" .
+omim:606812 a obo:DOID_4 ; rdfs:label "fumarase deficiency" .
+omim:603921 a obo:DOID_4 ; rdfs:label "SCS deficiencies SUCLA2" .
+omim:611224 a obo:DOID_4 ; rdfs:label "SCS deficiency SUCLG1" .
+
+# Molecule-disease associations (Richard Devela @RichardD97)
+
+wd:Q27106300 a chebi:25367; rdfs:label " 2-Oxoglutaric acid" .
+:assoc50 a association: ; refersTo: chapter20:, wd:Q27106300, omim:203740 .
+:assoc51 a association: ; refersTo: chapter20:, wd:Q27106300, omim:606812 .
+
+wd:Q139857 a chebi:25367; rdfs:label "fumaric acid" .
+:assoc52 a association: ; refersTo: chapter20:, wd:Q139857, omim:606812 .
+
+wd:Q213050 a chebi:25367; rdfs:label " Succinic acid " .
+:assoc53 a association: ; refersTo: chapter20:, wd:Q213050, omim:606812 .
+
+wd:Q27140247 a chebi:25367; rdfs:label " C4-DC methylmalonyl-carnitine " .
+:assoc54 a association: ; refersTo: chapter20:, wd:Q27140247, omim:603921 .
+:assoc55 a association: ; refersTo: chapter20:, wd:Q27140247, omim:611224 .
+
+wd:Q27140249 a chebi:25367; rdfs:label " C4-DC succinyl-carnitine " .
+:assoc56 a association: ; refersTo: chapter20:, wd:Q27140249, omim:603921 .
+:assoc57 a association: ; refersTo: chapter20:, wd:Q27140249, omim:611224 .
+
+wd:Q239598 a chebi:25367; rdfs:label " Methylmalonic acid" .
+:assoc58 a association: ; refersTo: chapter20:, wd:Q239598, omim:603921 .
+:assoc59 a association: ; refersTo: chapter20:, wd:Q239598, omim:611224 .
+
+
+# disease labels chapter31 (Anne Friesacher @Friesacher)
+
+omim:191290 a obo:DOID_4 ; rdfs:label "Tyrosine Hydroxylase deficiency" .
+omim:608643 a obo:DOID_4 ; rdfs:label "Aromatic L-amino acid decarboxylase deficiency" .
+omim:223360 a obo:DOID_4 ; rdfs:label "Dopamine Beta-Hydroxylase deficiency" .
+omim:307850 a obo:DOID_4 ; rdfs:label "Monoamine Oxidase A deficiency" .
+omim:6126455 a obo:DOID_4 ; rdfs:label "Dopamine Transporter deficiency" .
+omim:193001 a obo:DOID_4 ; rdfs:label "Dopamine-Serotonin Transporter deficiency" .
+
+# Molecule-disease associations (Anne Friesacher @Friesacher)
+
+wd:Q18254977 a chebi:25367 ; rdfs:label "Tyrosine-3-Hydroxylase" .
+:assoc60 a association: ; refersTo: chapter31:, wd:Q18254977, omim:191290  .
+
+wd:Q421186 a chebi:25367 ; rdfs:label "Aromatic L-Amino Acid Decarboxylase" .
+:assoc61 a association: ; refersTo: chapter31:, wd:Q421186, omim:608643  .
+
+wd:Q415762 a chebi:25367 ; rdfs:label "Dopamine Beta-Hydroxylase" .
+:assoc62 a association: ; refersTo: chapter31:, wd:Q415762, omim:223360   .
+
+wd:Q6901317 a chebi:25367 ; rdfs:label "Monoamine Oxidase A" .
+:assoc63 a association: ; refersTo: chapter31:, wd:Q6901317, omim:307850  .
+
+wd:Q14865372 a chebi:25367 ; rdfs:label "SLC6A3 Transporter" .
+:assoc64 a association: ; refersTo: chapter31:, wd:Q14865372, omim:6126455  .
+
+wd:Q14916234 a chebi:25367 ; rdfs:label "Vesicular Monoamine Transporter 2" .
+:assoc65 a association: ; refersTo: chapter31:, wd:Q14916234, omim:193001  .
+
+# disease labels Chapter41 pyrimidine metabolism (Roel Hacking @rhacking)
+
+omim:147520 a obo:DOID_4 ; rdfs:label "inosine triphosphatase deficiency" .
+omim:610460 a obo:DOID_4 ; rdfs:label "thiopurine S-methyltransferase deficiency" .
+omim:604712 a obo:DOID_4 ; rdfs:label "mitchondrial ribonucleotide reductase subunit 2 deficiency" .
+omim:609560 a obo:DOID_4 ; rdfs:label "thiopurine kinase 2 deficiency" .
+omim:251880 a obo:DOID_4 ; rdfs:label "deoxyguanosine kinase deficiency" .
+omim:210100 a obo:DOID_4 ; rdfs:label "beta-aminoisobutyratepyruvate transaminase deficiency" .
+omim:237400 a obo:DOID_4 ; rdfs:label "beta-alanine alphaketoglutarate transaminase deficiency" .
+omim:613161 a obo:DOID_4 ; rdfs:label "beta-ureidopropionase deficiency" .
+omim:222748 a obo:DOID_4 ; rdfs:label "dihydropyrimidinase deficiency" .
+omim:274270 a obo:DOID_4 ; rdfs:label "dihydropyrimidine dehydrogenase deficiency" .
+omim:131222 a obo:DOID_4 ; rdfs:label "thymidine phosphorylase deficiency" .
+omim:266120 a obo:DOID_4 ; rdfs:label "pyrimidine 5'-nucleotidase superactivity" .
+omim:266120 a obo:DOID_4 ; rdfs:label "pyrimidine 5'-nucleotidase I deficiency" .
+omim:258900 a obo:DOID_4 ; rdfs:label "orotic aciduria type I" .
+omim:258920 a obo:DOID_4 ; rdfs:label "orotic aciduria type II" .
+omim:263750 a obo:DOID_4 ; rdfs:label "dihydroorotate dehydrogenase deficiency" .
+
+# Molecule-disease associations (Roel Hacking @rhacking)
+wd:Q425536 a chebi:25367 ; rdfs:label "orotic acid" .
+:assoc66 a association: ; refersTo: chapter41:, wd:Q425536, omim:258900 .
+:assoc67 a association: ; refersTo: chapter41:, wd:Q425536, omim:258920 .
+
+wd:Q10859719 a chebi:25367 ; rdfs:label "orotidine" .
+:assoc68 a association: ; refersTo: chapter41:, wd:Q10859719, omim:258920 .
+
+wd:Q422464 a chebi:25367 ; rdfs:label "thymidine" .
+:assoc69 a association: ; refersTo: chapter41:, wd:Q422464, omim:131222 .
+:assoc70 a association: ; refersTo: chapter41:, wd:Q422464, omim:274270 .
+
+wd:Q419140 a chebi:25367 ; rdfs:label "2-deoxyuridine" .
+:assoc71 a association: ; refersTo: chapter41:, wd:Q419140, omim:131222 .
+
+wd:Q182990 a chebi:25367 ; rdfs:label "uracil" .
+:assoc72 a association: ; refersTo: chapter41:, wd:Q182990, omim:274270 .
+
+wd:Q3027885 a chebi:25367 ; rdfs:label "dihydrothymine" .
+:assoc73 a association: ; refersTo: chapter41:, wd:Q3027885, omim:222748 .
+:assoc74 a association: ; refersTo: chapter41:, wd:Q3027885, omim:613161 .
+
+wd:Q409340 a chebi:25367 ; rdfs:label "dihydrouracil" .
+:assoc75 a association: ; refersTo: chapter41:, wd:Q409340, omim:222748 .
+:assoc76 a association: ; refersTo: chapter41:, wd:Q409340, omim:613161 .
+
+wd:Q27108902 a chebi:25367 ; rdfs:label "N-carbamoyl-beta-alanine" .
+:assoc77 a association: ; refersTo: chapter41:, wd:Q3008585, omim:613161 .
+
+wd:Q2823221 a chebi:25367 ; rdfs:label "N-carbamyl-beta-aminoisobutyric acid" .
+:assoc78 a association: ; refersTo: chapter41:, wd:Q2823221, omim:613161 .
+
+wd:Q310919 a chebi:25367 ; rdfs:label "beta-alanine" .
+:assoc79 a association: ; refersTo: chapter41:, wd:Q310919, omim:237400 .
+
+wd:Q27102886 a chebi:25367 ; rdfs:label "(S)-beta-aminoisobutyrate" .
+:assoc80 a association: ; refersTo: chapter41:, wd:Q27102886, omim:210100 .
+
+# disease labels Chapter41 purine metabolism (Josien Landman @josienlandman)
+
+omim:311850 a obo:DOID_4 ; rdfs:label "Phosphoribolsyl pyrophosphate synthetase 1 defects" .
+omim:300661 a obo:DOID_4 ; rdfs:label "Phosphoribosyl pyrophosphate synthetase 1 superactivity" .
+omim:103050 a obo:DOID_4 ; rdfs:label "Adenylosuccinate lyase deficiency" .
+omim:608688 a obo:DOID_4 ; rdfs:label "AICAR transformylase/IMP cyclohydrolase deficiency" .
+omim:102770 a obo:DOID_4 ; rdfs:label "Adenosine monophosphate deaminase deficiency" .
+omim:146690 a obo:DOID_4 ; rdfs:label "Inosine monophosphate dehydrogenase deficiency" . 
+omim:102700 a obo:DOID_4 ; rdfs:label "Adenosine deaminase deficiency " . 
+omim:613179 a obo:DOID_4 ; rdfs:label "Purine nucleoside phosphorylase deficiency" .
+omim:278300 a obo:DOID_4 ; rdfs:label "Xanthine dehydrogenase deficiency" .
+omim:603592 a obo:DOID_4 ; rdfs:label "Combined xanthine oxydase and aldehyde oxidase deficiency" .
+omim:102600 a obo:DOID_4 ; rdfs:label "Adenine phosphoribosyl transferase deficiency" .
+omim:300322 a obo:DOID_4 ; rdfs:label "Hypoxanthine guanine phosphoribolsyl transferase deficiency" . 
+
+#molecule-disease associations (Josien Landman @josienlandman)
+wd:Q420633 a chebi:25367 ; rdfs:label "5-phosphoribosyl-1-pyrophosphate" .
+:assoc81 a association: ; refersTo: chapter41:, wd:Q420633, omim:311850 .
+:assoc82 a association: ; refersTo: chapter41:, wd:Q420633, omim:300661 .
+
+wd:Q27139416 a chebi:25367 ; rdfs:label "succinyladenosine" .
+:assoc83 a association: ; refersTo: chapter41:, wd:Q27139416, omim:103050 .
+
+wd:Q3502778 a chebi:25367 ; rdfs:label "succinylaminoimidazole carboxamide riboside" .
+:assoc84 a association: ; refersTo: chapter41:, wd:Q3502778, omim:103050 . 
+
+wd:Q4671562 a chebi:25367 ; rdfs:label "AICA-riboside" . 
+:assoc85 a association: ; refersTo: chapter41:, wd:Q4671562, omim:608688 . 
+
+wd:Q409458 a chebi:25367 ; rdfs:label "creatine kinase" .
+:assoc86 a association: ; refersTo: chapter41:, wd:Q409458 , omim:102770 .
+
+wd:Q422457 a chebi:25367 ; rdfs:label "2'-deoxyadenosine" .
+:assoc87 a association: ; refersTo: chapter41:, wd:Q190012, omim:102700 . 
+
+wd:Q422488 a chebi:25367 ; rdfs:label "2'-deoxyguanosine" . 
+:assoc88 a association: ; refersTo: chapter41:, wd:Q422488, omim:613179 . 
+
+wd:Q27071895 a chebi:25367 ; rdfs:label "2'-deoxyinosine" .
+:assoc89 a association: ; refersTo: chapter41:, wd:Q27071895, omim:613179 .
+
+wd:Q105522 a chebi:25367 ; rdfs:label "uric acid" . 
+:assoc90 a association: ; refersTo: chapter41:, wd:Q105522, omim:311850 . 
+:assoc91 a association: ; refersTo: chapter41:, wd:Q105522, omim:300661 .
+:assoc92 a association: ; refersTo: chapter41:, wd:Q105522, omim:103050 . 
+:assoc93 a association: ; refersTo: chapter41:, wd:Q105522, omim:613179 .
+:assoc94 a association: ; refersTo: chapter41:, wd:Q105522, omim:278300 .
+
+wd:Q50980 a chebi:25367 ; rdfs:label "xanthine" .
+:assoc95 a association: ; refersTo: chapter41:, wd:Q50980, omim:278300 . 
+:assoc96 a association: ; refersTo: chapter41:, wd:Q50980, omim:603592 .
+:assoc97 a association: ; refersTo: chapter41:, wd:Q50980, omim:300322 .
+
+wd:Q410305 a chebi:25367 ; rdfs:label "hypoxanthine" .
+:assoc98 a association: ; refersTo: chapter41:, wd:Q410305, omim:278300 .
+:assoc99 a association: ; refersTo: chapter41:, wd:Q410305, omim:603592 . 
+:assoc100 a association: ; refersTo: chapter41:, wd:Q410305, omim:300322 .
+:assoc101 a association: ; refersTo: chapter41:, wd:Q410305, omim:300661 . 
+
+wd:Q4596812 a chebi:25367 ; rdfs:label "2,8-dihydroxyadenine" .
+:assoc102 a association: ; refersTo: chapter41:, wd:Q4596812, omim:102600 . 
+
+wd:Q15277 a chebi:25367 ; rdfs:label "adenine" . 
+:assoc103 a association: ; refersTo: chapter41:, wd:Q15277, omim:102600 . 
